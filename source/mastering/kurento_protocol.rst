@@ -40,7 +40,7 @@ The following JSON shows a sample requests::
       "id": 1,
       "method": "create",
       "params": {
-        "type": "PlayerEndPoint",
+        "type": "PlayerEndpoint",
         "creationParams": {
           "pipeline": "6829986",
           "uri": "http://host/app/video.mp4"
@@ -165,7 +165,7 @@ parameter ``uri: http://host/app/video.mp4`` in the session
       "id": 1,
       "method": "create",
       "params": {
-        "type": "PlayerEndPoint",
+        "type": "PlayerEndpoint",
         "creationParams": {
           "pipeline": "6829986",
           "uri": "http://host/app/video.mp4"
