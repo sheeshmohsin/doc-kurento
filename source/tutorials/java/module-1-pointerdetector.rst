@@ -18,6 +18,17 @@ also installed:
 
     sudo apt-get install kms-pointerdetector
 
+Moreover, `JDK`:term: (at least version 7), `Maven`:term:, `Git`:term:, and
+`Bower`:term: should be installed in your system. Bower is installed using
+`npm`:term: (`Node.js`:term: package manager). In an Ubuntu machine it can be
+done as follows:
+
+.. sourcecode:: sh
+
+   curl -sL https://deb.nodesource.com/setup | sudo bash -
+   sudo apt-get install -y nodejs
+   sudo npm install -g bower
+
 To launch the application you need to clone the GitHub project where this demo
 is hosted and then run the main class, as follows:
 

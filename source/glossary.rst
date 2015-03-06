@@ -84,6 +84,9 @@ or :term:`kurento`.
         `GStreamer <http://gstreamer.freedesktop.org/>`__ is a pipeline-based
         multimedia framework written in the C programming language.
 
+    Git
+        Open source distributed version control system designed to handle software projects.
+
     H.264
         A Video Compression Format.
         The H.264 standard can be viewed as a "family of standards" composed
@@ -124,6 +127,10 @@ or :term:`kurento`.
             Wikipedia
                 :wikipedia:`Java Platform Enterprise Edition
                 <en,Java_Platform,_Enterprise_Edition>`
+
+    JDK
+        Java Development Kit, development environment for building applications using the
+        Java programming language.
 
     jQuery
         `jQuery <http://jquery.com/>`_ is a cross-platform JavaScript library designed
