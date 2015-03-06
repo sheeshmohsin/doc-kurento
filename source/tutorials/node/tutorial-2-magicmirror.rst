@@ -30,7 +30,7 @@ is hosted and then install and run it, as follows:
     git clone https://github.com/Kurento/kurento-tutorial-node.git
     cd kurento-tutorial-node/kurento-magic-mirror
     npm install
-    node app.js
+    node server.js
 
 Access the application connecting to the URL http://localhost:8080/ through a
 WebRTC capable browser (Chrome, Firefox).

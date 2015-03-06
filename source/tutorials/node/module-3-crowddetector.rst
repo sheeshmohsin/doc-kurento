@@ -36,6 +36,7 @@ is hosted and then install and run it, as follows:
     git clone https://github.com/Kurento/kurento-tutorial-node.git
     cd kurento-tutorial-node/kurento-crowddetector
     npm install
+    node server.js
 
 Finally access the application connecting to the URL http://localhost:8080/
 through a WebRTC capable browser (Chrome, Firefox).
