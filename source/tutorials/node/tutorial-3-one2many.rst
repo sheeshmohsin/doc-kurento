@@ -18,6 +18,7 @@ an Ubuntu machine, you can install both as follows:
 
 .. sourcecode:: sh
 
+   sudo apt-get install curl
    curl -sL https://deb.nodesource.com/setup | sudo bash -
    sudo apt-get install -y nodejs
    sudo npm install -g bower

@@ -265,6 +265,7 @@ installing `Node.js`:term: package) and Bower in an Ubuntu machine:
 
 .. sourcecode:: sh
 
+   sudo apt-get install curl
    curl -sL https://deb.nodesource.com/setup | sudo bash -
    sudo apt-get install -y nodejs
    sudo npm install -g bower
