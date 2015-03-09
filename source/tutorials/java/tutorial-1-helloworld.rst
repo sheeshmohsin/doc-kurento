@@ -154,7 +154,7 @@ In the following figure you can see a class diagram of the server side code:
    HelloWorldController -> KurentoClient [constraint = false]
 
 The main class of this demo is
-`HelloWorldApp <https://github.com/Kurento/kurento-tutorial-java/blob/master/kurento-hello-world/src/main/java/org/kurento/tutorial/helloworld/HelloWorldApp.java>`_.
+`HelloWorldApp <https://github.com/Kurento/kurento-tutorial-java/blob/release-5.1/kurento-hello-world/src/main/java/org/kurento/tutorial/helloworld/HelloWorldApp.java>`_.
 As you can see, the *KurentoClient* is instantiated in this class as a Spring
 Bean. This bean is used to create **Kurento Media Pipelines**, which are used
 to add media capabilities to the application. In this instantiation we see that
@@ -186,7 +186,7 @@ As introduced before, we use `REST`:term: to communicate the client with the
 Java application server. Specifically, we use the Spring annotation
 *@RestController* to implement REST services in the server-side. Take a look to
 the
-`HelloWorldController <https://github.com/Kurento/kurento-tutorial-java/blob/master/kurento-hello-world/src/main/java/org/kurento/tutorial/helloworld/HelloWorldController.java>`_
+`HelloWorldController <https://github.com/Kurento/kurento-tutorial-java/blob/release-5.1/kurento-hello-world/src/main/java/org/kurento/tutorial/helloworld/HelloWorldController.java>`_
 class:
 
 .. sourcecode:: java
@@ -248,9 +248,9 @@ maintained by Google that abstracts away browser differences. Finally
 **jquery.js** is also needed in this application.
 
 These libraries are linked in the
-`index.html <https://github.com/Kurento/kurento-tutorial-java/blob/master/kurento-hello-world/src/main/resources/static/index.html>`_
+`index.html <https://github.com/Kurento/kurento-tutorial-java/blob/release-5.1/kurento-hello-world/src/main/resources/static/index.html>`_
 web page, and are used in the
-`index.js <https://github.com/Kurento/kurento-tutorial-java/blob/master/kurento-hello-world/src/main/resources/static/js/index.js>`_.
+`index.js <https://github.com/Kurento/kurento-tutorial-java/blob/release-5.1/kurento-hello-world/src/main/resources/static/js/index.js>`_.
 In the *start* function we can see how jQuery is used to send a POST request to
 the path */helloworld*, where the application server REST service is listening.
 The function *WebRtcPeer.startSendRecv* abstracts the WebRTC internal details

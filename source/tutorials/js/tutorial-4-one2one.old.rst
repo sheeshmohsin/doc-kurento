@@ -80,7 +80,7 @@ JavaScript Logic
 
 As introduced before, the interface of this demo is implemented in an HTML web
 page:
-`demo.html <https://github.com/Kurento/kws-tutorial/blob/master/PubNub/demo.html>`_.
+`demo.html <https://github.com/Kurento/kws-tutorial/blob/release-5.1/PubNub/demo.html>`_.
 As you can see, this page uses several JavaScript libraries:
 
 - `adapter.js <https://rawgit.com/GoogleChrome/webrtc/master/samples/web/js/adapter.js>`_:
@@ -95,13 +95,13 @@ As you can see, this page uses several JavaScript libraries:
 - *kws-utils.js*: Reusable components useful for Kurento development in the
   client-side.
 
-- `softphonePubnub.js <https://github.com/Kurento/kws-tutorial/blob/master/PubNub/softphonePubnub.js>`_:
+- `softphonePubnub.js <https://github.com/Kurento/kws-tutorial/blob/release-5.1/PubNub/softphonePubnub.js>`_:
   Specific JavaScript logic for this demo.
 
 .. todo:: Update dependencies (KWS cannot be present anymore) in the entire document
 
 The most relevant part of this demo can be found on
-`softphonePubnub.js <https://github.com/Kurento/kws-tutorial/blob/master/PubNub/softphonePubnub.js>`_.
+`softphonePubnub.js <https://github.com/Kurento/kws-tutorial/blob/release-5.1/PubNub/softphonePubnub.js>`_.
 In this library we can found the PubNub publish/subscribe procedure
 (``SoftphonePubnub`` class), the incoming call logic (``onIncomingCall``
 method), the SDP negotiation and start of WebRTC communication (``createPeer``
@@ -230,7 +230,7 @@ This demo is using a remote Kurento Media Server located on
 Server, please visit first the
 :doc:`installation guide <../../installation_guide>` for further information.
 Then, you should change the following line of
-`softphonePubnub.js <https://github.com/Kurento/kws-tutorial/blob/master/PubNub/softphonePubnub.js>`_:
+`softphonePubnub.js <https://github.com/Kurento/kws-tutorial/blob/release-5.1/PubNub/softphonePubnub.js>`_:
 
 .. sourcecode:: javascript
 

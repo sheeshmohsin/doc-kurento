@@ -121,7 +121,7 @@ express is not a requirement for Kurento.
 
 
 The main script of this demo is
-`server.js <https://github.com/Kurento/kurento-tutorial-node/blob/master/kurento-one2many-call/server.js>`_.
+`server.js <https://github.com/Kurento/kurento-tutorial-node/blob/release-5.1/kurento-one2many-call/server.js>`_.
 
 
 Once the *Kurento Client* has been instantiated, you are ready for communicating
@@ -294,9 +294,9 @@ maintained by Google that abstracts away browser differences. Finally
 **jquery.js** is also needed in this application.
 
 These libraries are linked in the
-`index.html <https://github.com/Kurento/kurento-tutorial-node/blob/master/kurento-one2many-call/src/main/resources/static/index.html>`_
+`index.html <https://github.com/Kurento/kurento-tutorial-node/blob/release-5.1/kurento-one2many-call/src/main/resources/static/index.html>`_
 web page, and are used in the
-`index.js <https://github.com/Kurento/kurento-tutorial-node/blob/master/kurento-one2many-call/src/main/resources/static/js/index.js>`_.
+`index.js <https://github.com/Kurento/kurento-tutorial-node/blob/release-5.1/kurento-one2many-call/src/main/resources/static/js/index.js>`_.
 In the following snippet we can see the creation of the WebSocket (variable
 ``ws``) in the path ``/call``. Then, the ``onmessage`` listener of the
 WebSocket is used to implement the JSON signaling protocol in the client-side.
@@ -365,7 +365,7 @@ Dependencies
 
 Dependencies of this demo are managed using npm. Our main dependency is the
 Kurento Client JavaScript (*kurento-client*). The relevant part of the
-`package.json <https://github.com/Kurento/kurento-tutorial-node/blob/master/kurento-one2many-call/package.json>`_
+`package.json <https://github.com/Kurento/kurento-tutorial-node/blob/release-5.1/kurento-one2many-call/package.json>`_
 file for managing this dependency is:
 
 .. sourcecode:: js
@@ -376,7 +376,7 @@ file for managing this dependency is:
    }
 
 At the client side, dependencies are managed using Bower. Take a look to the
-`bower.json <https://github.com/Kurento/kurento-tutorial-node/blob/master/kurento-one2many-call/static/bower.json>`_
+`bower.json <https://github.com/Kurento/kurento-tutorial-node/blob/release-5.1/kurento-one2many-call/static/bower.json>`_
 file and pay attention to the following section:
 
 .. sourcecode:: js

@@ -80,15 +80,15 @@ How do I...
    instance, in the *hello-world* application within the tutorials, this would
    be done as follows:
 
-   - Java: Changing this line in `HelloWorldApp.java <https://github.com/Kurento/kurento-tutorial-java/blob/master/kurento-hello-world/src/main/java/org/kurento/tutorial/helloworld/HelloWorldApp.java>`_::
+   - Java: Changing this line in `HelloWorldApp.java <https://github.com/Kurento/kurento-tutorial-java/blob/release-5.1/kurento-hello-world/src/main/java/org/kurento/tutorial/helloworld/HelloWorldApp.java>`_::
 
       final static String DEFAULT_KMS_WS_URI = "wss://localhost:8433/kurento";
 
-   - Browser JavaScript: Changing this line in `index.js <https://github.com/Kurento/kurento-tutorial-js/blob/master/kurento-hello-world/js/index.js>`_::
+   - Browser JavaScript: Changing this line in `index.js <https://github.com/Kurento/kurento-tutorial-js/blob/release-5.1/kurento-hello-world/js/index.js>`_::
 
        const ws_uri = 'wss://' + location.hostname + ':8433/kurento';
 
-   - Node.js: Changing this line in `server.js <https://github.com/Kurento/kurento-tutorial-node/blob/master/kurento-hello-world/server.js>`_::
+   - Node.js: Changing this line in `server.js <https://github.com/Kurento/kurento-tutorial-node/blob/release-5.1/kurento-hello-world/server.js>`_::
 
       const ws_uri = "wss://localhost:8433/kurento";
 

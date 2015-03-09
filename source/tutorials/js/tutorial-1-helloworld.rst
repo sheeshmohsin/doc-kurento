@@ -105,7 +105,7 @@ JavaScript Logic
 
 The Kurento *hello-world* demo follows a *Single Page Application* architecture
 (`SPA`:term:). The interface is the following HTML page:
-`index.html <https://github.com/Kurento/kurento-tutorial-js/blob/master/kurento-hello-world/index.html>`_.
+`index.html <https://github.com/Kurento/kurento-tutorial-js/blob/release-5.1/kurento-hello-world/index.html>`_.
 This web page links two Kurento JavaScript libraries:
 
 * **kurento-client.js** : Implementation of the Kurento JavaScript Client.
@@ -123,7 +123,7 @@ In addition, these two JavaScript libraries are also required:
 
 The specific logic of the *Hello World* JavaScript demo is coded in the
 following JavaScript file:
-`index.js <https://github.com/Kurento/kurento-tutorial-js/blob/master/kurento-hello-world/js/index.js>`_.
+`index.js <https://github.com/Kurento/kurento-tutorial-js/blob/release-5.1/kurento-hello-world/js/index.js>`_.
 In this file, there is a ``start`` function which is called when the green
 button labeled as *Start* in the GUI is clicked.
 
@@ -211,7 +211,7 @@ Dependencies
 
 All dependencies of this demo can to be obtained using `Bower`:term:. The list
 of these dependencies are defined in the
-`bower.json <https://github.com/Kurento/kurento-tutorial-js/blob/master/kurento-hello-world/bower.json>`_
+`bower.json <https://github.com/Kurento/kurento-tutorial-js/blob/release-5.1/kurento-hello-world/bower.json>`_
 file, as follows:
 
 .. sourcecode:: js

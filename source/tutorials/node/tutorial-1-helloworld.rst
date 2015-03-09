@@ -128,7 +128,7 @@ This demo has been developed using the **express** framework for Node.js, but
 express is not a requirement for Kurento.
 
 The main script of this demo is
-`server.js <https://github.com/Kurento/kurento-tutorial-node/blob/master/kurento-hello-world/server.js>`_.
+`server.js <https://github.com/Kurento/kurento-tutorial-node/blob/release-5.1/kurento-hello-world/server.js>`_.
 As you can see, the *KurentoClient* is instantiated in this class. In this
 instantiation we see that we need to specify to the client library the location
 of the Kurento Media Server. In this example, we assume it's located at
@@ -213,9 +213,9 @@ maintained by Google that abstracts away browser differences. Finally
 **jquery.js** is also needed in this application.
 
 These libraries are linked in the
-`index.html <https://github.com/Kurento/kurento-tutorial-node/blob/master/kurento-hello-world/static/index.html>`_
+`index.html <https://github.com/Kurento/kurento-tutorial-node/blob/release-5.1/kurento-hello-world/static/index.html>`_
 web page, and are used in the
-`index.js <https://github.com/Kurento/kurento-tutorial-node/blob/master/kurento-hello-world/static/js/index.js>`_.
+`index.js <https://github.com/Kurento/kurento-tutorial-node/blob/release-5.1/kurento-hello-world/static/js/index.js>`_.
 In the *start* function we can see how jQuery is used to send a POST request to
 the path */helloworld*, where the application server REST service is listening.
 The function *WebRtcPeer.startSendRecv* abstracts the WebRTC internal details
@@ -263,7 +263,7 @@ Dependencies
 
 Dependencies of this demo are managed using npm. Our main dependency is the
 Kurento Client JavaScript (*kurento-client*). The relevant part of the
-`package.json <https://github.com/Kurento/kurento-tutorial-node/blob/master/kurento-hello-world/package.json>`_
+`package.json <https://github.com/Kurento/kurento-tutorial-node/blob/release-5.1/kurento-hello-world/package.json>`_
 file for managing this dependency is:
 
 .. sourcecode:: js
@@ -274,7 +274,7 @@ file for managing this dependency is:
    }
 
 At the client side, dependencies are managed using Bower. Take a look to the
-`bower.json <https://github.com/Kurento/kurento-tutorial-node/blob/master/kurento-hello-world/static/bower.json>`_
+`bower.json <https://github.com/Kurento/kurento-tutorial-node/blob/release-5.1/kurento-hello-world/static/bower.json>`_
 file and pay attention to the following section:
 
 .. sourcecode:: js

@@ -147,7 +147,7 @@ In the following figure you can see a class diagram of the server side code:
    CallHandler -> KurentoClient [constraint = false]
 
 The main class of this demo is named
-`One2ManyCallApp <https://github.com/Kurento/kurento-tutorial-java/blob/master/kurento-one2many-call/src/main/java/org/kurento/tutorial/one2manycall/One2ManyCallApp.java>`_.
+`One2ManyCallApp <https://github.com/Kurento/kurento-tutorial-java/blob/release-5.1/kurento-one2many-call/src/main/java/org/kurento/tutorial/one2manycall/One2ManyCallApp.java>`_.
 As you can see, the *KurentoClient* is instantiated in this class as a Spring
 Bean. This bean is used to create **Kurento Media Pipelines**, which are used
 to add media capabilities to your applications. In this instantiation we see
@@ -187,7 +187,7 @@ means of requests and responses. Specifically, the main app class implements
 the interface ``WebSocketConfigurer`` to register a ``WebSocketHanlder`` to
 process WebSocket requests in the path ``/call``.
 
-`CallHandler <https://github.com/Kurento/kurento-tutorial-java/blob/master/kurento-one2many-call/src/main/java/org/kurento/tutorial/one2manycall/CallHandler.java>`_
+`CallHandler <https://github.com/Kurento/kurento-tutorial-java/blob/release-5.1/kurento-one2many-call/src/main/java/org/kurento/tutorial/one2manycall/CallHandler.java>`_
 class implements ``TextWebSocketHandler`` to handle text WebSocket requests.
 The central piece of this class is the method ``handleTextMessage``. This
 method implements the actions for requests, returning responses through the
@@ -404,9 +404,9 @@ maintained by Google that abstracts away browser differences. Finally
 **jquery.js** is also needed in this application.
 
 These libraries are linked in the
-`index.html <https://github.com/Kurento/kurento-tutorial-java/blob/master/kurento-one2many-call/src/main/resources/static/index.html>`_
+`index.html <https://github.com/Kurento/kurento-tutorial-java/blob/release-5.1/kurento-one2many-call/src/main/resources/static/index.html>`_
 web page, and are used in the
-`index.js <https://github.com/Kurento/kurento-tutorial-java/blob/master/kurento-one2many-call/src/main/resources/static/js/index.js>`_.
+`index.js <https://github.com/Kurento/kurento-tutorial-java/blob/release-5.1/kurento-one2many-call/src/main/resources/static/js/index.js>`_.
 In the following snippet we can see the creation of the WebSocket (variable
 ``ws``) in the path ``/call``. Then, the ``onmessage`` listener of the
 WebSocket is used to implement the JSON signaling protocol in the client-side.

@@ -146,7 +146,7 @@ Dependencies
 
 The dependencies of this demo has to be obtained using `Bower`:term:. The
 definition of these dependencies are defined in the
-`bower.json <https://github.com/Kurento/kurento-tutorial-js/blob/master/kurento-chroma/bower.json>`_
+`bower.json <https://github.com/Kurento/kurento-tutorial-js/blob/release-5.1/kurento-chroma/bower.json>`_
 file, as follows:
 
 .. sourcecode:: js

@@ -154,7 +154,7 @@ Dependencies
 
 Dependencies of this demo are managed using NPM. Our main dependency is the
 Kurento Client JavaScript (*kurento-client*). The relevant part of the
-`package.json <https://github.com/Kurento/kurento-tutorial-node/blob/master/kurento-chroma/package.json>`_
+`package.json <https://github.com/Kurento/kurento-tutorial-node/blob/release-5.1/kurento-chroma/package.json>`_
 file for managing this dependency is:
 
 .. sourcecode:: js
@@ -164,7 +164,7 @@ file for managing this dependency is:
    }
 
 At the client side, dependencies are managed using Bower. Take a look to the
-`bower.json <https://github.com/Kurento/kurento-tutorial-node/blob/master/kurento-chroma/static/bower.json>`_
+`bower.json <https://github.com/Kurento/kurento-tutorial-node/blob/release-5.1/kurento-chroma/static/bower.json>`_
 file and pay attention to the following section:
 
 .. sourcecode:: js

@@ -145,7 +145,7 @@ In the following figure you can see a class diagram of the server side code:
    UserRegistry -> UserSession [headlabel="*",  labelangle=60]
 
 The main class of this demo is named
-`One2OneCallApp <https://github.com/Kurento/kurento-tutorial-java/blob/master/kurento-one2one-call/src/main/java/org/kurento/tutorial/one2onecall/One2OneCallApp.java>`_.
+`One2OneCallApp <https://github.com/Kurento/kurento-tutorial-java/blob/release-5.1/kurento-one2one-call/src/main/java/org/kurento/tutorial/one2onecall/One2OneCallApp.java>`_.
 As you can see, the ``KurentoClient`` is instantiated in this class as a Spring
 Bean.
 
@@ -187,7 +187,7 @@ means of requests and responses. Specifically, the main app class implements
 the interface ``WebSocketConfigurer`` to register a ``WebSocketHanlder`` to
 process WebSocket requests in the path ``/call``.
 
-`CallHandler <https://github.com/Kurento/kurento-tutorial-java/blob/master/kurento-one2one-call/src/main/java/org/kurento/tutorial/one2onecall/CallHandler.java>`_
+`CallHandler <https://github.com/Kurento/kurento-tutorial-java/blob/release-5.1/kurento-one2one-call/src/main/java/org/kurento/tutorial/one2onecall/CallHandler.java>`_
 class implements ``TextWebSocketHandler`` to handle text WebSocket requests.
 The central piece of this class is the method ``handleTextMessage``. This
 method implements the actions for requests, returning responses through the
@@ -464,7 +464,7 @@ moment). The methods used to generate SDP are
    }
            
 The media logic in this demo is implemented in the class
-`CallMediaPipeline <https://github.com/Kurento/kurento-tutorial-java/blob/master/kurento-one2one-call/src/main/java/org/kurento/tutorial/one2onecall/CallMediaPipeline.java>`_.
+`CallMediaPipeline <https://github.com/Kurento/kurento-tutorial-java/blob/release-5.1/kurento-one2one-call/src/main/java/org/kurento/tutorial/one2onecall/CallMediaPipeline.java>`_.
 As you can see, the media pipeline of this demo is quite simple: two
 ``WebRtcEndpoint`` elements directly interconnected. Please take note that the
 WebRtcEndpoints need to be connected twice, one for each media direction.
@@ -524,9 +524,9 @@ maintained by Google that abstracts away browser differences. Finally
 **jquery.js** is also needed in this application.
 
 These libraries are linked in the
-`index.html <https://github.com/Kurento/kurento-tutorial-java/blob/master/kurento-one2one-call/src/main/resources/static/index.html>`_
+`index.html <https://github.com/Kurento/kurento-tutorial-java/blob/release-5.1/kurento-one2one-call/src/main/resources/static/index.html>`_
 web page, and are used in the
-`index.js <https://github.com/Kurento/kurento-tutorial-java/blob/master/kurento-one2one-call/src/main/resources/static/js/index.js>`_.
+`index.js <https://github.com/Kurento/kurento-tutorial-java/blob/release-5.1/kurento-one2one-call/src/main/resources/static/js/index.js>`_.
 
 In the following snippet we can see the creation of the WebSocket (variable
 ``ws``) in the path ``/call``. Then, the ``onmessage`` listener of the
