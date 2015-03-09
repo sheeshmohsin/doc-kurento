@@ -19,15 +19,14 @@ new plugin:
     sudo apt-get install kms-platedetector
     sudo service kurento-media-server restart
 
-Be sure to have installed `Node.js`:term: and `Bower`:term: in your system. In
-an Ubuntu machine, you can install both as follows:
+Be sure to have installed `Node.js`:term: in your system. In an Ubuntu machine,
+you can install both as follows:
 
 .. sourcecode:: sh
 
    sudo apt-get install curl
    curl -sL https://deb.nodesource.com/setup | sudo bash -
    sudo apt-get install -y nodejs
-   sudo npm install -g bower
 
 To launch the application you need to clone the GitHub project where this demo
 is hosted and then install and run it, as follows:
@@ -38,6 +37,14 @@ is hosted and then install and run it, as follows:
     cd kurento-tutorial-node/kurento-platedetector
     npm install
     node server.js
+
+If you have problems installing any of the dependencies, please remove them and
+clean the npm cache, and try to install them again:
+
+.. sourcecode:: sh
+
+    rm -r node_modules
+    npm cache clean
 
 Finally access the application connecting to the URL http://localhost:8080/
 through a WebRTC capable browser (Chrome, Firefox).
@@ -85,52 +92,52 @@ this event is printed in the console of the GUI.
 .. sourcecode:: javascript
 
    function start(sessionId, sdpOffer, callback) {
-   
+
       if (!sessionId) {
          return callback("Cannot use undefined sessionId");
       }
-   
+
       // Check if session is already transmitting
       if (pipelines[sessionId]) {
          return callback("Close current session before starting a new one or use " +
             "another browser to open a tutorial.")
       }
-   
+
       getKurentoClient(function(error, kurentoClient) {
          if (error) {
             return callback(error);
          }
-   
+
          kurentoClient.create('MediaPipeline', function(error, pipeline) {
             if (error) {
                return callback(error);
             }
-   
+
             createMediaElements(pipeline, function(error, webRtcEndpoint,
                   plateDetectorFilter) {
                if (error) {
                   pipeline.release();
                   return callback(error);
                }
-   
+
                connectMediaElements(webRtcEndpoint, plateDetectorFilter,
                   function(error) {
                      if (error) {
                         pipeline.release();
                         return callback(error);
                      }
-   
+
                      plateDetectorFilter.on ('PlateDetected', function (data){
                         return callback(null, 'plateDetected', data);
                      });
-   
+
                      webRtcEndpoint.processOffer(sdpOffer, function(
                            error, sdpAnswer) {
                         if (error) {
                            pipeline.release();
                            return callback(error);
                         }
-   
+
                         pipelines[sessionId] = pipeline;
                         return callback(null, 'sdpAnswer', sdpAnswer);
                      });
@@ -169,4 +176,3 @@ Kurento framework uses `Semantic Versioning`:term: for releases. Notice that
 ranges (``^5.0.0`` for *kurento-client* and *kurento-utils-js*,  and ``^1.0.0``
 for *platedetector*) downloads the latest version of Kurento artifacts from NPM
 and Bower.
-
