@@ -98,7 +98,7 @@ connection:
 The following sections analyze in deep the client-side (JavaScript) code of this
 application, the dependencies, and how to run the demo. The complete source
 code can be found in
-`GitHub <https://github.com/Kurento/kurento-tutorial-js/tree/master/kurento-hello-world>`_.
+`GitHub <https://github.com/Kurento/kurento-tutorial-js/tree/release-5.1/kurento-hello-world>`_.
 
 JavaScript Logic
 ================

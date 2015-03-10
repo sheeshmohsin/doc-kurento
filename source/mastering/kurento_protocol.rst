@@ -451,9 +451,9 @@ is defined in the following IDL files:
 
 - `KMS core <https://github.com/Kurento/kms-core/blob/develop/src/server/interface/core.kmd.json>`_
 
-- `KMS elements <https://github.com/Kurento/kms-elements/tree/master/src/server/interface>`_
+- `KMS elements <https://github.com/Kurento/kms-elements/tree/release-5.1/src/server/interface>`_
 
-- `KMS filters <https://github.com/Kurento/kms-filters/tree/master/src/server/interface>`_
+- `KMS filters <https://github.com/Kurento/kms-filters/tree/release-5.1/src/server/interface>`_
 
 
 Example: WebRTC in loopback

@@ -182,13 +182,13 @@ Simple examples for both kind of modules are available in GitHub:
 There are a lot of examples of how to define methods, parameters or events in
 all our public built-in modules:
 
-* `kms-pointerdetector <https://github.com/Kurento/kms-pointerdetector/tree/master/src/server/interface>`_
+* `kms-pointerdetector <https://github.com/Kurento/kms-pointerdetector/tree/release-5.1/src/server/interface>`_
 
-* `kms-crowddetector <https://github.com/Kurento/kms-crowddetector/tree/master/src/server/interface>`_
+* `kms-crowddetector <https://github.com/Kurento/kms-crowddetector/tree/release-5.1/src/server/interface>`_
 
-* `kms-chroma <https://github.com/Kurento/kms-chroma/tree/master/src/server/interface>`_
+* `kms-chroma <https://github.com/Kurento/kms-chroma/tree/release-5.1/src/server/interface>`_
 
-* `kms-platedetector <https://github.com/Kurento/kms-platedetector/tree/master/src/server/interface>`_
+* `kms-platedetector <https://github.com/Kurento/kms-platedetector/tree/release-5.1/src/server/interface>`_
 
 Moreover, all our modules are developed using this methodology, for that reason
 you can take a look to our main modules:

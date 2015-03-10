@@ -104,7 +104,7 @@ and server to establish the `WebRTC`:term: connection between the browser and
 Kurento. Specifically, the SDP negotiation connects the WebRtcPeer in the
 browser with the WebRtcEndpoint in the server. The complete source code of this
 demo can be found in
-`GitHub <https://github.com/Kurento/kurento-tutorial-java/tree/master/kurento-one2many-call>`_.
+`GitHub <https://github.com/Kurento/kurento-tutorial-java/tree/release-5.1/kurento-one2many-call>`_.
 
 Application Server Logic
 ========================

@@ -82,7 +82,7 @@ The media pipeline implemented is illustrated in the following picture:
    *WebRTC with filter in loopback Media Pipeline*
 
 The complete source code of this demo can be found in
-`GitHub <https://github.com/Kurento/kurento-tutorial-js/tree/master/kurento-magic-mirror>`_.
+`GitHub <https://github.com/Kurento/kurento-tutorial-js/tree/release-5.1/kurento-magic-mirror>`_.
 
 JavaScript Logic
 ================

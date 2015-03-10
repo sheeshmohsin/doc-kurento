@@ -70,7 +70,7 @@ composed by the following `Media Element`:term: s:
    *WebRTC with PointerDetector filter in loopback Media Pipeline*
    
 The complete source code of this demo can be found in
-`GitHub <https://github.com/Kurento/kurento-tutorial-js/tree/master/kurento-pointerdetector>`_.
+`GitHub <https://github.com/Kurento/kurento-tutorial-js/tree/release-5.1/kurento-pointerdetector>`_.
 
 This example is a modified version of the
 :doc:`Magic Mirror <./tutorial-1-magicmirror>` tutorial. In this case, this

@@ -118,7 +118,7 @@ the application interface to: i) JavaScript logic; ii) Application server logic
 
 The following sections analyze in deep the server and client-side code of this
 application. The complete source code can be found in
-`GitHub <https://github.com/Kurento/kurento-tutorial-node/tree/master/kurento-hello-world>`_.
+`GitHub <https://github.com/Kurento/kurento-tutorial-node/tree/release-5.1/kurento-hello-world>`_.
 
 
 Application Server Logic

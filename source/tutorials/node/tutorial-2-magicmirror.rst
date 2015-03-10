@@ -109,7 +109,7 @@ client and server to establish the `WebRTC`:term: session between the browser
 and Kurento. Specifically, the SDP negotiation connects the WebRtcPeer at the
 browser with the WebRtcEndpoint at the server. The complete source code of this
 demo can be found in
-`GitHub <https://github.com/Kurento/kurento-tutorial-node/tree/master/kurento-magic-mirror>`_.
+`GitHub <https://github.com/Kurento/kurento-tutorial-node/tree/release-5.1/kurento-magic-mirror>`_.
 
 Application Server Side
 =======================

@@ -64,7 +64,7 @@ composed by the following `Media Element`:term: s:
    *WebRTC with plateDetector filter Media Pipeline*
 
 The complete source code of this demo can be found in
-`GitHub <https://github.com/Kurento/kurento-tutorial-java/tree/master/kurento-platedetector>`_.
+`GitHub <https://github.com/Kurento/kurento-tutorial-java/tree/release-5.1/kurento-platedetector>`_.
 
 This example is a modified version of the
 :doc:`Magic Mirror <./tutorial-1-magicmirror>` tutorial. In this case, this

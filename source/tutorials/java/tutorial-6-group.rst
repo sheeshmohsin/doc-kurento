@@ -45,7 +45,7 @@ The following sections describe in detail the server-side, the client-side, and
 how to run the demo.
 
 The complete source code of this demo can be found in
-`GitHub <https://github.com/Kurento/kurento-tutorial-java/tree/master/kurento-group-call>`_.
+`GitHub <https://github.com/Kurento/kurento-tutorial-java/tree/release-5.1/kurento-group-call>`_.
 
 Server-Side
 ===========

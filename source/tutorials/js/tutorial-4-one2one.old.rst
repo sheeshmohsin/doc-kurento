@@ -71,7 +71,7 @@ server:
 The following sections describe in detail the logic and how to run the demo.
 
 The complete source code of this demo can be found in
-`GitHub <https://github.com/Kurento/kws-tutorial/tree/master/PubNub>`_.
+`GitHub <https://github.com/Kurento/kws-tutorial/tree/release-5.1/PubNub>`_.
 
 .. todo:: Change GitHub URLs (in the entire document)
 
