@@ -1,2840 +1,1004 @@
-<html xmlns:v="urn:schemas-microsoft-com:vml"
-xmlns:o="urn:schemas-microsoft-com:office:office"
-xmlns:w="urn:schemas-microsoft-com:office:word"
-xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
-xmlns="http://www.w3.org/TR/REC-html40">
 
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
-<meta name=ProgId content=Word.Document>
-<meta name=Generator content="Microsoft Word 14">
-<meta name=Originator content="Microsoft Word 14">
-<link rel=File-List
-href="Fiware-Open-Spec-API-Stream-Oriented-GE_archivos/filelist.xml">
-<link rel=Edit-Time-Data
-href="Fiware-Open-Spec-API-Stream-Oriented-GE_archivos/editdata.mso">
-<!--[if !mso]>
-<style>
-v\:* {behavior:url(#default#VML);}
-o\:* {behavior:url(#default#VML);}
-w\:* {behavior:url(#default#VML);}
-.shape {behavior:url(#default#VML);}
-</style>
-<![endif]--><!--[if gte mso 9]><xml>
- <o:DocumentProperties>
-  <o:Author>Boni</o:Author>
-  <o:LastAuthor>Boni</o:LastAuthor>
-  <o:Revision>2</o:Revision>
-  <o:TotalTime>374</o:TotalTime>
-  <o:Created>2015-09-04T10:15:00Z</o:Created>
-  <o:LastSaved>2015-09-04T10:15:00Z</o:LastSaved>
-  <o:Pages>10</o:Pages>
-  <o:Words>2008</o:Words>
-  <o:Characters>11044</o:Characters>
-  <o:Company>Universidad de Las Palmas de Gran Canaria</o:Company>
-  <o:Lines>92</o:Lines>
-  <o:Paragraphs>26</o:Paragraphs>
-  <o:CharactersWithSpaces>13026</o:CharactersWithSpaces>
-  <o:Version>14.00</o:Version>
- </o:DocumentProperties>
-</xml><![endif]-->
-<link rel=dataStoreItem
-href="Fiware-Open-Spec-API-Stream-Oriented-GE_archivos/item0001.xml"
-target="Fiware-Open-Spec-API-Stream-Oriented-GE_archivos/props002.xml">
-<link rel=themeData
-href="Fiware-Open-Spec-API-Stream-Oriented-GE_archivos/themedata.thmx">
-<link rel=colorSchemeMapping
-href="Fiware-Open-Spec-API-Stream-Oriented-GE_archivos/colorschememapping.xml">
-<!--[if gte mso 9]><xml>
- <w:WordDocument>
-  <w:SpellingState>Clean</w:SpellingState>
-  <w:GrammarState>Clean</w:GrammarState>
-  <w:TrackMoves>false</w:TrackMoves>
-  <w:TrackFormatting/>
-  <w:HyphenationZone>21</w:HyphenationZone>
-  <w:PunctuationKerning/>
-  <w:ValidateAgainstSchemas/>
-  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
-  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
-  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
-  <w:DoNotPromoteQF/>
-  <w:LidThemeOther>ES</w:LidThemeOther>
-  <w:LidThemeAsian>JA</w:LidThemeAsian>
-  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
-  <w:Compatibility>
-   <w:BreakWrappedTables/>
-   <w:SnapToGridInCell/>
-   <w:WrapTextWithPunct/>
-   <w:UseAsianBreakRules/>
-   <w:DontGrowAutofit/>
-   <w:SplitPgBreakAndParaMark/>
-  </w:Compatibility>
-  <w:DoNotOptimizeForBrowser/>
-  <m:mathPr>
-   <m:mathFont m:val="Cambria Math"/>
-   <m:brkBin m:val="before"/>
-   <m:brkBinSub m:val="&#45;-"/>
-   <m:smallFrac m:val="off"/>
-   <m:dispDef/>
-   <m:lMargin m:val="0"/>
-   <m:rMargin m:val="0"/>
-   <m:defJc m:val="centerGroup"/>
-   <m:wrapIndent m:val="1440"/>
-   <m:intLim m:val="subSup"/>
-   <m:naryLim m:val="undOvr"/>
-  </m:mathPr></w:WordDocument>
-</xml><![endif]--><!--[if gte mso 9]><xml>
- <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
-  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
-  LatentStyleCount="267">
-  <w:LsdException Locked="false" Priority="0" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="Normal"/>
-  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>
-  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
-  <w:LsdException Locked="false" Priority="0" QFormat="true" Name="heading 3"/>
-  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>
-  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/>
-  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/>
-  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>
-  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>
-  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>
-  <w:LsdException Locked="false" Priority="39" Name="toc 1"/>
-  <w:LsdException Locked="false" Priority="39" Name="toc 2"/>
-  <w:LsdException Locked="false" Priority="39" Name="toc 3"/>
-  <w:LsdException Locked="false" Priority="39" Name="toc 4"/>
-  <w:LsdException Locked="false" Priority="39" Name="toc 5"/>
-  <w:LsdException Locked="false" Priority="39" Name="toc 6"/>
-  <w:LsdException Locked="false" Priority="39" Name="toc 7"/>
-  <w:LsdException Locked="false" Priority="39" Name="toc 8"/>
-  <w:LsdException Locked="false" Priority="39" Name="toc 9"/>
-  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>
-  <w:LsdException Locked="false" Priority="10" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="Title"/>
-  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
-  <w:LsdException Locked="false" Priority="11" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>
-  <w:LsdException Locked="false" Priority="22" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="Strong"/>
-  <w:LsdException Locked="false" Priority="20" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>
-  <w:LsdException Locked="false" Priority="59" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Table Grid"/>
-  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>
-  <w:LsdException Locked="false" Priority="1" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/>
-  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Shading"/>
-  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light List"/>
-  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Grid"/>
-  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 1"/>
-  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 2"/>
-  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 1"/>
-  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 2"/>
-  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 1"/>
-  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 2"/>
-  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 3"/>
-  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Dark List"/>
-  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Shading"/>
-  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful List"/>
-  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Grid"/>
-  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Shading Accent 1"/>
-  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light List Accent 1"/>
-  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Grid Accent 1"/>
-  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>
-  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>
-  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>
-  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>
-  <w:LsdException Locked="false" Priority="34" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>
-  <w:LsdException Locked="false" Priority="29" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="Quote"/>
-  <w:LsdException Locked="false" Priority="30" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>
-  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>
-  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>
-  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>
-  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>
-  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Dark List Accent 1"/>
-  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>
-  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful List Accent 1"/>
-  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>
-  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Shading Accent 2"/>
-  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light List Accent 2"/>
-  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Grid Accent 2"/>
-  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>
-  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>
-  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>
-  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>
-  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>
-  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>
-  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>
-  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Dark List Accent 2"/>
-  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>
-  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful List Accent 2"/>
-  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>
-  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Shading Accent 3"/>
-  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light List Accent 3"/>
-  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Grid Accent 3"/>
-  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>
-  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>
-  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>
-  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>
-  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>
-  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>
-  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>
-  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Dark List Accent 3"/>
-  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>
-  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful List Accent 3"/>
-  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>
-  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Shading Accent 4"/>
-  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light List Accent 4"/>
-  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Grid Accent 4"/>
-  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>
-  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>
-  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>
-  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>
-  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>
-  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>
-  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>
-  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Dark List Accent 4"/>
-  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>
-  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful List Accent 4"/>
-  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>
-  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Shading Accent 5"/>
-  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light List Accent 5"/>
-  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Grid Accent 5"/>
-  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>
-  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>
-  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>
-  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>
-  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>
-  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>
-  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>
-  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Dark List Accent 5"/>
-  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>
-  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful List Accent 5"/>
-  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>
-  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Shading Accent 6"/>
-  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light List Accent 6"/>
-  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Grid Accent 6"/>
-  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>
-  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>
-  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>
-  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>
-  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>
-  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>
-  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>
-  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Dark List Accent 6"/>
-  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>
-  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful List Accent 6"/>
-  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>
-  <w:LsdException Locked="false" Priority="19" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>
-  <w:LsdException Locked="false" Priority="21" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>
-  <w:LsdException Locked="false" Priority="31" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>
-  <w:LsdException Locked="false" Priority="32" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>
-  <w:LsdException Locked="false" Priority="33" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>
-  <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
-  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
- </w:LatentStyles>
-</xml><![endif]-->
-<style>
-<!--
- /* Font Definitions */
- @font-face
-	{font-family:Wingdings;
-	panose-1:5 0 0 0 0 0 0 0 0 0;
-	mso-font-charset:2;
-	mso-generic-font-family:auto;
-	mso-font-pitch:variable;
-	mso-font-signature:0 268435456 0 0 -2147483648 0;}
-@font-face
-	{font-family:Wingdings;
-	panose-1:5 0 0 0 0 0 0 0 0 0;
-	mso-font-charset:2;
-	mso-generic-font-family:auto;
-	mso-font-pitch:variable;
-	mso-font-signature:0 268435456 0 0 -2147483648 0;}
-@font-face
-	{font-family:Tahoma;
-	panose-1:2 11 6 4 3 5 4 4 2 4;
-	mso-font-charset:0;
-	mso-generic-font-family:swiss;
-	mso-font-format:other;
-	mso-font-pitch:variable;
-	mso-font-signature:3 0 0 0 1 0;}
-@font-face
-	{font-family:"Trebuchet MS";
-	panose-1:2 11 6 3 2 2 2 2 2 4;
-	mso-font-charset:0;
-	mso-generic-font-family:swiss;
-	mso-font-pitch:variable;
-	mso-font-signature:647 0 0 0 159 0;}
- /* Style Definitions */
- p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-parent:"";
-	margin:0cm;
-	margin-bottom:.0001pt;
-	line-height:115%;
-	mso-pagination:widow-orphan;
-	font-size:11.0pt;
-	font-family:"Arial","sans-serif";
-	mso-fareast-font-family:Arial;
-	color:black;}
-h1
-	{mso-style-unhide:no;
-	mso-style-parent:Normal1;
-	mso-style-next:Normal1;
-	margin-top:10.0pt;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:0cm;
-	margin-bottom:.0001pt;
-	mso-add-space:auto;
-	line-height:115%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	mso-outline-level:1;
-	font-size:16.0pt;
-	font-family:"Trebuchet MS","sans-serif";
-	mso-fareast-font-family:"Trebuchet MS";
-	mso-bidi-font-family:"Trebuchet MS";
-	color:black;
-	mso-font-kerning:0pt;
-	font-weight:normal;}
-h1.CxSpFirst
-	{mso-style-unhide:no;
-	mso-style-parent:Normal1;
-	mso-style-next:Normal1;
-	mso-style-type:export-only;
-	margin-top:10.0pt;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:0cm;
-	margin-bottom:.0001pt;
-	mso-add-space:auto;
-	line-height:115%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	mso-outline-level:1;
-	font-size:16.0pt;
-	font-family:"Trebuchet MS","sans-serif";
-	mso-fareast-font-family:"Trebuchet MS";
-	mso-bidi-font-family:"Trebuchet MS";
-	color:black;
-	mso-font-kerning:0pt;
-	font-weight:normal;}
-h1.CxSpMiddle
-	{mso-style-unhide:no;
-	mso-style-parent:Normal1;
-	mso-style-next:Normal1;
-	mso-style-type:export-only;
-	margin:0cm;
-	margin-bottom:.0001pt;
-	mso-add-space:auto;
-	line-height:115%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	mso-outline-level:1;
-	font-size:16.0pt;
-	font-family:"Trebuchet MS","sans-serif";
-	mso-fareast-font-family:"Trebuchet MS";
-	mso-bidi-font-family:"Trebuchet MS";
-	color:black;
-	mso-font-kerning:0pt;
-	font-weight:normal;}
-h1.CxSpLast
-	{mso-style-unhide:no;
-	mso-style-parent:Normal1;
-	mso-style-next:Normal1;
-	mso-style-type:export-only;
-	margin:0cm;
-	margin-bottom:.0001pt;
-	mso-add-space:auto;
-	line-height:115%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	mso-outline-level:1;
-	font-size:16.0pt;
-	font-family:"Trebuchet MS","sans-serif";
-	mso-fareast-font-family:"Trebuchet MS";
-	mso-bidi-font-family:"Trebuchet MS";
-	color:black;
-	mso-font-kerning:0pt;
-	font-weight:normal;}
-h2
-	{mso-style-unhide:no;
-	mso-style-parent:Normal1;
-	mso-style-next:Normal1;
-	margin-top:10.0pt;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:0cm;
-	margin-bottom:.0001pt;
-	mso-add-space:auto;
-	line-height:115%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	mso-outline-level:2;
-	font-size:13.0pt;
-	font-family:"Trebuchet MS","sans-serif";
-	mso-fareast-font-family:"Trebuchet MS";
-	mso-bidi-font-family:"Trebuchet MS";
-	color:black;
-	mso-bidi-font-weight:normal;}
-h2.CxSpFirst
-	{mso-style-unhide:no;
-	mso-style-parent:Normal1;
-	mso-style-next:Normal1;
-	mso-style-type:export-only;
-	margin-top:10.0pt;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:0cm;
-	margin-bottom:.0001pt;
-	mso-add-space:auto;
-	line-height:115%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	mso-outline-level:2;
-	font-size:13.0pt;
-	font-family:"Trebuchet MS","sans-serif";
-	mso-fareast-font-family:"Trebuchet MS";
-	mso-bidi-font-family:"Trebuchet MS";
-	color:black;
-	mso-bidi-font-weight:normal;}
-h2.CxSpMiddle
-	{mso-style-unhide:no;
-	mso-style-parent:Normal1;
-	mso-style-next:Normal1;
-	mso-style-type:export-only;
-	margin:0cm;
-	margin-bottom:.0001pt;
-	mso-add-space:auto;
-	line-height:115%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	mso-outline-level:2;
-	font-size:13.0pt;
-	font-family:"Trebuchet MS","sans-serif";
-	mso-fareast-font-family:"Trebuchet MS";
-	mso-bidi-font-family:"Trebuchet MS";
-	color:black;
-	mso-bidi-font-weight:normal;}
-h2.CxSpLast
-	{mso-style-unhide:no;
-	mso-style-parent:Normal1;
-	mso-style-next:Normal1;
-	mso-style-type:export-only;
-	margin:0cm;
-	margin-bottom:.0001pt;
-	mso-add-space:auto;
-	line-height:115%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	mso-outline-level:2;
-	font-size:13.0pt;
-	font-family:"Trebuchet MS","sans-serif";
-	mso-fareast-font-family:"Trebuchet MS";
-	mso-bidi-font-family:"Trebuchet MS";
-	color:black;
-	mso-bidi-font-weight:normal;}
-h3
-	{mso-style-unhide:no;
-	mso-style-parent:Normal1;
-	mso-style-next:Normal1;
-	margin-top:8.0pt;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:0cm;
-	margin-bottom:.0001pt;
-	mso-add-space:auto;
-	line-height:115%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	mso-outline-level:3;
-	font-size:12.0pt;
-	font-family:"Trebuchet MS","sans-serif";
-	mso-fareast-font-family:"Trebuchet MS";
-	mso-bidi-font-family:"Trebuchet MS";
-	color:#666666;
-	mso-bidi-font-weight:normal;}
-h3.CxSpFirst
-	{mso-style-unhide:no;
-	mso-style-parent:Normal1;
-	mso-style-next:Normal1;
-	mso-style-type:export-only;
-	margin-top:8.0pt;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:0cm;
-	margin-bottom:.0001pt;
-	mso-add-space:auto;
-	line-height:115%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	mso-outline-level:3;
-	font-size:12.0pt;
-	font-family:"Trebuchet MS","sans-serif";
-	mso-fareast-font-family:"Trebuchet MS";
-	mso-bidi-font-family:"Trebuchet MS";
-	color:#666666;
-	mso-bidi-font-weight:normal;}
-h3.CxSpMiddle
-	{mso-style-unhide:no;
-	mso-style-parent:Normal1;
-	mso-style-next:Normal1;
-	mso-style-type:export-only;
-	margin:0cm;
-	margin-bottom:.0001pt;
-	mso-add-space:auto;
-	line-height:115%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	mso-outline-level:3;
-	font-size:12.0pt;
-	font-family:"Trebuchet MS","sans-serif";
-	mso-fareast-font-family:"Trebuchet MS";
-	mso-bidi-font-family:"Trebuchet MS";
-	color:#666666;
-	mso-bidi-font-weight:normal;}
-h3.CxSpLast
-	{mso-style-unhide:no;
-	mso-style-parent:Normal1;
-	mso-style-next:Normal1;
-	mso-style-type:export-only;
-	margin:0cm;
-	margin-bottom:.0001pt;
-	mso-add-space:auto;
-	line-height:115%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	mso-outline-level:3;
-	font-size:12.0pt;
-	font-family:"Trebuchet MS","sans-serif";
-	mso-fareast-font-family:"Trebuchet MS";
-	mso-bidi-font-family:"Trebuchet MS";
-	color:#666666;
-	mso-bidi-font-weight:normal;}
-h4
-	{mso-style-unhide:no;
-	mso-style-parent:Normal1;
-	mso-style-next:Normal1;
-	margin-top:8.0pt;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:0cm;
-	margin-bottom:.0001pt;
-	mso-add-space:auto;
-	line-height:115%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	mso-outline-level:4;
-	font-size:11.0pt;
-	font-family:"Trebuchet MS","sans-serif";
-	mso-fareast-font-family:"Trebuchet MS";
-	mso-bidi-font-family:"Trebuchet MS";
-	color:#666666;
-	font-weight:normal;
-	text-decoration:underline;
-	text-underline:single;}
-h4.CxSpFirst
-	{mso-style-unhide:no;
-	mso-style-parent:Normal1;
-	mso-style-next:Normal1;
-	mso-style-type:export-only;
-	margin-top:8.0pt;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:0cm;
-	margin-bottom:.0001pt;
-	mso-add-space:auto;
-	line-height:115%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	mso-outline-level:4;
-	font-size:11.0pt;
-	font-family:"Trebuchet MS","sans-serif";
-	mso-fareast-font-family:"Trebuchet MS";
-	mso-bidi-font-family:"Trebuchet MS";
-	color:#666666;
-	font-weight:normal;
-	text-decoration:underline;
-	text-underline:single;}
-h4.CxSpMiddle
-	{mso-style-unhide:no;
-	mso-style-parent:Normal1;
-	mso-style-next:Normal1;
-	mso-style-type:export-only;
-	margin:0cm;
-	margin-bottom:.0001pt;
-	mso-add-space:auto;
-	line-height:115%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	mso-outline-level:4;
-	font-size:11.0pt;
-	font-family:"Trebuchet MS","sans-serif";
-	mso-fareast-font-family:"Trebuchet MS";
-	mso-bidi-font-family:"Trebuchet MS";
-	color:#666666;
-	font-weight:normal;
-	text-decoration:underline;
-	text-underline:single;}
-h4.CxSpLast
-	{mso-style-unhide:no;
-	mso-style-parent:Normal1;
-	mso-style-next:Normal1;
-	mso-style-type:export-only;
-	margin:0cm;
-	margin-bottom:.0001pt;
-	mso-add-space:auto;
-	line-height:115%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	mso-outline-level:4;
-	font-size:11.0pt;
-	font-family:"Trebuchet MS","sans-serif";
-	mso-fareast-font-family:"Trebuchet MS";
-	mso-bidi-font-family:"Trebuchet MS";
-	color:#666666;
-	font-weight:normal;
-	text-decoration:underline;
-	text-underline:single;}
-h5
-	{mso-style-unhide:no;
-	mso-style-parent:Normal1;
-	mso-style-next:Normal1;
-	margin-top:8.0pt;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:0cm;
-	margin-bottom:.0001pt;
-	mso-add-space:auto;
-	line-height:115%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	mso-outline-level:5;
-	font-size:11.0pt;
-	font-family:"Trebuchet MS","sans-serif";
-	mso-fareast-font-family:"Trebuchet MS";
-	mso-bidi-font-family:"Trebuchet MS";
-	color:#666666;
-	font-weight:normal;}
-h5.CxSpFirst
-	{mso-style-unhide:no;
-	mso-style-parent:Normal1;
-	mso-style-next:Normal1;
-	mso-style-type:export-only;
-	margin-top:8.0pt;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:0cm;
-	margin-bottom:.0001pt;
-	mso-add-space:auto;
-	line-height:115%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	mso-outline-level:5;
-	font-size:11.0pt;
-	font-family:"Trebuchet MS","sans-serif";
-	mso-fareast-font-family:"Trebuchet MS";
-	mso-bidi-font-family:"Trebuchet MS";
-	color:#666666;
-	font-weight:normal;}
-h5.CxSpMiddle
-	{mso-style-unhide:no;
-	mso-style-parent:Normal1;
-	mso-style-next:Normal1;
-	mso-style-type:export-only;
-	margin:0cm;
-	margin-bottom:.0001pt;
-	mso-add-space:auto;
-	line-height:115%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	mso-outline-level:5;
-	font-size:11.0pt;
-	font-family:"Trebuchet MS","sans-serif";
-	mso-fareast-font-family:"Trebuchet MS";
-	mso-bidi-font-family:"Trebuchet MS";
-	color:#666666;
-	font-weight:normal;}
-h5.CxSpLast
-	{mso-style-unhide:no;
-	mso-style-parent:Normal1;
-	mso-style-next:Normal1;
-	mso-style-type:export-only;
-	margin:0cm;
-	margin-bottom:.0001pt;
-	mso-add-space:auto;
-	line-height:115%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	mso-outline-level:5;
-	font-size:11.0pt;
-	font-family:"Trebuchet MS","sans-serif";
-	mso-fareast-font-family:"Trebuchet MS";
-	mso-bidi-font-family:"Trebuchet MS";
-	color:#666666;
-	font-weight:normal;}
-h6
-	{mso-style-unhide:no;
-	mso-style-parent:Normal1;
-	mso-style-next:Normal1;
-	margin-top:8.0pt;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:0cm;
-	margin-bottom:.0001pt;
-	mso-add-space:auto;
-	line-height:115%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	mso-outline-level:6;
-	font-size:11.0pt;
-	font-family:"Trebuchet MS","sans-serif";
-	mso-fareast-font-family:"Trebuchet MS";
-	mso-bidi-font-family:"Trebuchet MS";
-	color:#666666;
-	font-weight:normal;
-	font-style:italic;
-	mso-bidi-font-style:normal;}
-h6.CxSpFirst
-	{mso-style-unhide:no;
-	mso-style-parent:Normal1;
-	mso-style-next:Normal1;
-	mso-style-type:export-only;
-	margin-top:8.0pt;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:0cm;
-	margin-bottom:.0001pt;
-	mso-add-space:auto;
-	line-height:115%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	mso-outline-level:6;
-	font-size:11.0pt;
-	font-family:"Trebuchet MS","sans-serif";
-	mso-fareast-font-family:"Trebuchet MS";
-	mso-bidi-font-family:"Trebuchet MS";
-	color:#666666;
-	font-weight:normal;
-	font-style:italic;
-	mso-bidi-font-style:normal;}
-h6.CxSpMiddle
-	{mso-style-unhide:no;
-	mso-style-parent:Normal1;
-	mso-style-next:Normal1;
-	mso-style-type:export-only;
-	margin:0cm;
-	margin-bottom:.0001pt;
-	mso-add-space:auto;
-	line-height:115%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	mso-outline-level:6;
-	font-size:11.0pt;
-	font-family:"Trebuchet MS","sans-serif";
-	mso-fareast-font-family:"Trebuchet MS";
-	mso-bidi-font-family:"Trebuchet MS";
-	color:#666666;
-	font-weight:normal;
-	font-style:italic;
-	mso-bidi-font-style:normal;}
-h6.CxSpLast
-	{mso-style-unhide:no;
-	mso-style-parent:Normal1;
-	mso-style-next:Normal1;
-	mso-style-type:export-only;
-	margin:0cm;
-	margin-bottom:.0001pt;
-	mso-add-space:auto;
-	line-height:115%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	mso-outline-level:6;
-	font-size:11.0pt;
-	font-family:"Trebuchet MS","sans-serif";
-	mso-fareast-font-family:"Trebuchet MS";
-	mso-bidi-font-family:"Trebuchet MS";
-	color:#666666;
-	font-weight:normal;
-	font-style:italic;
-	mso-bidi-font-style:normal;}
-p.MsoTitle, li.MsoTitle, div.MsoTitle
-	{mso-style-unhide:no;
-	mso-style-parent:Normal1;
-	mso-style-next:Normal1;
-	margin:0cm;
-	margin-bottom:.0001pt;
-	mso-add-space:auto;
-	line-height:115%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	font-size:21.0pt;
-	font-family:"Trebuchet MS","sans-serif";
-	mso-fareast-font-family:"Trebuchet MS";
-	mso-bidi-font-family:"Trebuchet MS";
-	color:black;}
-p.MsoTitleCxSpFirst, li.MsoTitleCxSpFirst, div.MsoTitleCxSpFirst
-	{mso-style-unhide:no;
-	mso-style-parent:Normal1;
-	mso-style-next:Normal1;
-	mso-style-type:export-only;
-	margin:0cm;
-	margin-bottom:.0001pt;
-	mso-add-space:auto;
-	line-height:115%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	font-size:21.0pt;
-	font-family:"Trebuchet MS","sans-serif";
-	mso-fareast-font-family:"Trebuchet MS";
-	mso-bidi-font-family:"Trebuchet MS";
-	color:black;}
-p.MsoTitleCxSpMiddle, li.MsoTitleCxSpMiddle, div.MsoTitleCxSpMiddle
-	{mso-style-unhide:no;
-	mso-style-parent:Normal1;
-	mso-style-next:Normal1;
-	mso-style-type:export-only;
-	margin:0cm;
-	margin-bottom:.0001pt;
-	mso-add-space:auto;
-	line-height:115%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	font-size:21.0pt;
-	font-family:"Trebuchet MS","sans-serif";
-	mso-fareast-font-family:"Trebuchet MS";
-	mso-bidi-font-family:"Trebuchet MS";
-	color:black;}
-p.MsoTitleCxSpLast, li.MsoTitleCxSpLast, div.MsoTitleCxSpLast
-	{mso-style-unhide:no;
-	mso-style-parent:Normal1;
-	mso-style-next:Normal1;
-	mso-style-type:export-only;
-	margin:0cm;
-	margin-bottom:.0001pt;
-	mso-add-space:auto;
-	line-height:115%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	font-size:21.0pt;
-	font-family:"Trebuchet MS","sans-serif";
-	mso-fareast-font-family:"Trebuchet MS";
-	mso-bidi-font-family:"Trebuchet MS";
-	color:black;}
-p.MsoSubtitle, li.MsoSubtitle, div.MsoSubtitle
-	{mso-style-unhide:no;
-	mso-style-parent:Normal1;
-	mso-style-next:Normal1;
-	margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:10.0pt;
-	margin-left:0cm;
-	mso-add-space:auto;
-	line-height:115%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	font-size:13.0pt;
-	font-family:"Trebuchet MS","sans-serif";
-	mso-fareast-font-family:"Trebuchet MS";
-	mso-bidi-font-family:"Trebuchet MS";
-	color:#666666;
-	font-style:italic;
-	mso-bidi-font-style:normal;}
-p.MsoSubtitleCxSpFirst, li.MsoSubtitleCxSpFirst, div.MsoSubtitleCxSpFirst
-	{mso-style-unhide:no;
-	mso-style-parent:Normal1;
-	mso-style-next:Normal1;
-	mso-style-type:export-only;
-	margin:0cm;
-	margin-bottom:.0001pt;
-	mso-add-space:auto;
-	line-height:115%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	font-size:13.0pt;
-	font-family:"Trebuchet MS","sans-serif";
-	mso-fareast-font-family:"Trebuchet MS";
-	mso-bidi-font-family:"Trebuchet MS";
-	color:#666666;
-	font-style:italic;
-	mso-bidi-font-style:normal;}
-p.MsoSubtitleCxSpMiddle, li.MsoSubtitleCxSpMiddle, div.MsoSubtitleCxSpMiddle
-	{mso-style-unhide:no;
-	mso-style-parent:Normal1;
-	mso-style-next:Normal1;
-	mso-style-type:export-only;
-	margin:0cm;
-	margin-bottom:.0001pt;
-	mso-add-space:auto;
-	line-height:115%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	font-size:13.0pt;
-	font-family:"Trebuchet MS","sans-serif";
-	mso-fareast-font-family:"Trebuchet MS";
-	mso-bidi-font-family:"Trebuchet MS";
-	color:#666666;
-	font-style:italic;
-	mso-bidi-font-style:normal;}
-p.MsoSubtitleCxSpLast, li.MsoSubtitleCxSpLast, div.MsoSubtitleCxSpLast
-	{mso-style-unhide:no;
-	mso-style-parent:Normal1;
-	mso-style-next:Normal1;
-	mso-style-type:export-only;
-	margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:10.0pt;
-	margin-left:0cm;
-	mso-add-space:auto;
-	line-height:115%;
-	mso-pagination:widow-orphan lines-together;
-	page-break-after:avoid;
-	font-size:13.0pt;
-	font-family:"Trebuchet MS","sans-serif";
-	mso-fareast-font-family:"Trebuchet MS";
-	mso-bidi-font-family:"Trebuchet MS";
-	color:#666666;
-	font-style:italic;
-	mso-bidi-font-style:normal;}
-a:link, span.MsoHyperlink
-	{mso-style-priority:99;
-	color:blue;
-	mso-themecolor:hyperlink;
-	text-decoration:underline;
-	text-underline:single;}
-a:visited, span.MsoHyperlinkFollowed
-	{mso-style-noshow:yes;
-	mso-style-priority:99;
-	color:purple;
-	mso-themecolor:followedhyperlink;
-	text-decoration:underline;
-	text-underline:single;}
-p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
-	{mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-link:"Texto de globo Car";
-	margin:0cm;
-	margin-bottom:.0001pt;
-	mso-pagination:widow-orphan;
-	font-size:8.0pt;
-	font-family:"Tahoma","sans-serif";
-	mso-fareast-font-family:Arial;
-	mso-bidi-font-family:Tahoma;
-	color:black;}
-p.Normal1, li.Normal1, div.Normal1
-	{mso-style-name:Normal1;
-	mso-style-unhide:no;
-	mso-style-parent:"";
-	margin:0cm;
-	margin-bottom:.0001pt;
-	line-height:115%;
-	mso-pagination:widow-orphan;
-	font-size:11.0pt;
-	font-family:"Arial","sans-serif";
-	mso-fareast-font-family:Arial;
-	color:black;}
-span.TextodegloboCar
-	{mso-style-name:"Texto de globo Car";
-	mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:"Texto de globo";
-	mso-ansi-font-size:8.0pt;
-	mso-bidi-font-size:8.0pt;
-	font-family:"Tahoma","sans-serif";
-	mso-ascii-font-family:Tahoma;
-	mso-hansi-font-family:Tahoma;
-	mso-bidi-font-family:Tahoma;}
-span.SpellE
-	{mso-style-name:"";
-	mso-spl-e:yes;}
-span.GramE
-	{mso-style-name:"";
-	mso-gram-e:yes;}
-.MsoChpDefault
-	{mso-style-type:export-only;
-	mso-default-props:yes;
-	font-family:"Arial","sans-serif";
-	mso-ascii-font-family:Arial;
-	mso-fareast-font-family:Arial;
-	mso-hansi-font-family:Arial;
-	mso-bidi-font-family:Arial;
-	color:black;}
-.MsoPapDefault
-	{mso-style-type:export-only;
-	line-height:115%;}
-@page WordSection1
-	{size:595.45pt 841.7pt;
-	margin:72.0pt 72.0pt 72.0pt 72.0pt;
-	mso-header-margin:36.0pt;
-	mso-footer-margin:36.0pt;
-	mso-page-numbers:1;
-	mso-paper-source:0;}
-div.WordSection1
-	{page:WordSection1;}
- /* List Definitions */
- @list l0
-	{mso-list-id:166870560;
-	mso-list-type:hybrid;
-	mso-list-template-ids:-299206296 -77965468 201981955 201981957 201981953 201981955 201981957 201981953 201981955 201981957;}
-@list l0:level1
-	{mso-level-start-at:0;
-	mso-level-number-format:bullet;
-	mso-level-text:-;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:21.0pt;
-	text-indent:-18.0pt;
-	font-family:"Arial","sans-serif";
-	mso-fareast-font-family:Arial;}
-@list l0:level2
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:57.0pt;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
-@list l0:level3
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:93.0pt;
-	text-indent:-18.0pt;
-	font-family:Wingdings;}
-@list l0:level4
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:129.0pt;
-	text-indent:-18.0pt;
-	font-family:Symbol;}
-@list l0:level5
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:165.0pt;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
-@list l0:level6
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:201.0pt;
-	text-indent:-18.0pt;
-	font-family:Wingdings;}
-@list l0:level7
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:237.0pt;
-	text-indent:-18.0pt;
-	font-family:Symbol;}
-@list l0:level8
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:273.0pt;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
-@list l0:level9
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	margin-left:309.0pt;
-	text-indent:-18.0pt;
-	font-family:Wingdings;}
-@list l1
-	{mso-list-id:424229696;
-	mso-list-type:hybrid;
-	mso-list-template-ids:-2068167508 -34326362 201981955 201981957 201981953 201981955 201981957 201981953 201981955 201981957;}
-@list l1:level1
-	{mso-level-start-at:0;
-	mso-level-number-format:bullet;
-	mso-level-text:-;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Arial","sans-serif";
-	mso-fareast-font-family:Arial;}
-@list l1:level2
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
-@list l1:level3
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;}
-@list l1:level4
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Symbol;}
-@list l1:level5
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
-@list l1:level6
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;}
-@list l1:level7
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Symbol;}
-@list l1:level8
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
-@list l1:level9
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;}
-@list l2
-	{mso-list-id:1478063021;
-	mso-list-template-ids:457224934;}
-@list l2:level1
-	{mso-level-number-format:bullet;
-	mso-level-text:\25CF;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:18.0pt;
-	text-decoration:none;
-	text-underline:none;}
-@list l2:level2
-	{mso-level-number-format:bullet;
-	mso-level-text:\25CB;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:54.0pt;
-	text-decoration:none;
-	text-underline:none;}
-@list l2:level3
-	{mso-level-number-format:bullet;
-	mso-level-text:\25A0;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:90.0pt;
-	text-decoration:none;
-	text-underline:none;}
-@list l2:level4
-	{mso-level-number-format:bullet;
-	mso-level-text:\25CF;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:126.0pt;
-	text-decoration:none;
-	text-underline:none;}
-@list l2:level5
-	{mso-level-number-format:bullet;
-	mso-level-text:\25CB;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:162.0pt;
-	text-decoration:none;
-	text-underline:none;}
-@list l2:level6
-	{mso-level-number-format:bullet;
-	mso-level-text:\25A0;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:198.0pt;
-	text-decoration:none;
-	text-underline:none;}
-@list l2:level7
-	{mso-level-number-format:bullet;
-	mso-level-text:\25CF;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:234.0pt;
-	text-decoration:none;
-	text-underline:none;}
-@list l2:level8
-	{mso-level-number-format:bullet;
-	mso-level-text:\25CB;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:270.0pt;
-	text-decoration:none;
-	text-underline:none;}
-@list l2:level9
-	{mso-level-number-format:bullet;
-	mso-level-text:\25A0;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:306.0pt;
-	text-decoration:none;
-	text-underline:none;}
-@list l3
-	{mso-list-id:1533180482;
-	mso-list-type:hybrid;
-	mso-list-template-ids:-917072036 -1802890712 201981955 201981957 201981953 201981955 201981957 201981953 201981955 201981957;}
-@list l3:level1
-	{mso-level-start-at:0;
-	mso-level-number-format:bullet;
-	mso-level-text:-;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Arial","sans-serif";
-	mso-fareast-font-family:Arial;}
-@list l3:level2
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
-@list l3:level3
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;}
-@list l3:level4
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Symbol;}
-@list l3:level5
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
-@list l3:level6
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;}
-@list l3:level7
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Symbol;}
-@list l3:level8
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:"Courier New";}
-@list l3:level9
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-18.0pt;
-	font-family:Wingdings;}
-ol
-	{margin-bottom:0cm;}
-ul
-	{margin-bottom:0cm;}
--->
-</style>
-<!--[if gte mso 10]>
-<style>
- /* Style Definitions */
- table.MsoNormalTable
-	{mso-style-name:"Tabla normal";
-	mso-tstyle-rowband-size:0;
-	mso-tstyle-colband-size:0;
-	mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-parent:"";
-	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
-	mso-para-margin:0cm;
-	mso-para-margin-bottom:.0001pt;
-	line-height:115%;
-	mso-pagination:widow-orphan;
-	font-size:11.0pt;
-	font-family:"Arial","sans-serif";
-	color:black;}
-table.TableNormal
-	{mso-style-name:"Table Normal";
-	mso-tstyle-rowband-size:0;
-	mso-tstyle-colband-size:0;
-	mso-style-unhide:no;
-	mso-style-parent:"";
-	mso-padding-alt:0cm 0cm 0cm 0cm;
-	mso-para-margin:0cm;
-	mso-para-margin-bottom:.0001pt;
-	line-height:115%;
-	mso-pagination:widow-orphan;
-	font-size:11.0pt;
-	font-family:"Arial","sans-serif";
-	color:black;}
-</style>
-<![endif]--><!--[if gte mso 9]><xml>
- <o:shapedefaults v:ext="edit" spidmax="1026"/>
-</xml><![endif]--><!--[if gte mso 9]><xml>
- <o:shapelayout v:ext="edit">
-  <o:idmap v:ext="edit" data="1"/>
- </o:shapelayout></xml><![endif]-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Stream-oriented GE Open API</title>
+    <link href="css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/idea.css">
+    <script src="js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <link rel="stylesheet" type="text/css" href="css/api-specification.css"> 
+
+    
 </head>
+<body id="respecDocument" class="h-entry">
+<div class="container">
+  <div id="TOC-container">
+    
+<section id="toc">
 
-<body bgcolor=white lang=ES link=blue vlink=purple style='tab-interval:36.0pt'>
+        <div id="fiware-logo"></div>
+    <ul class="toc">
 
-<div class=WordSection1>
 
-<p class=Normal1 style='line-height:137%'><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shapetype
- id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
- path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
- <v:stroke joinstyle="miter"/>
- <v:formulas>
-  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
-  <v:f eqn="sum @0 1 0"/>
-  <v:f eqn="sum 0 0 @1"/>
-  <v:f eqn="prod @2 1 2"/>
-  <v:f eqn="prod @3 21600 pixelWidth"/>
-  <v:f eqn="prod @3 21600 pixelHeight"/>
-  <v:f eqn="sum @0 0 1"/>
-  <v:f eqn="prod @6 1 2"/>
-  <v:f eqn="prod @7 21600 pixelWidth"/>
-  <v:f eqn="sum @8 21600 0"/>
-  <v:f eqn="prod @7 21600 pixelHeight"/>
-  <v:f eqn="sum @10 21600 0"/>
- </v:formulas>
- <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
- <o:lock v:ext="edit" aspectratio="t"/>
-</v:shapetype><v:shape id="Imagen_x0020_1" o:spid="_x0000_i1027" type="#_x0000_t75"
- style='width:94.5pt;height:36.75pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="Fiware-Open-Spec-API-Stream-Oriented-GE_archivos/image001.jpg"
-  o:title="logo-urjc"/>
-</v:shape><![endif]--><![if !vml]><img width=126 height=49
-src="Fiware-Open-Spec-API-Stream-Oriented-GE_archivos/image002.jpg" v:shapes="Imagen_x0020_1"><![endif]></span><span
-style='font-size:0pt;line-height:137%;font-family:"Times New Roman","serif";
-mso-fareast-font-family:"Times New Roman";border:none black 1.0pt;mso-border-alt:
-none black 0cm;padding:0cm;background:black;mso-font-width:0%;mso-ansi-language:
-X-NONE;mso-fareast-language:X-NONE;mso-bidi-language:X-NONE;layout-grid-mode:
-line'><span style='mso-spacerun:yes'>&nbsp;</span></span><span style='mso-no-proof:
-yes'><!--[if gte vml 1]><v:shape id="Imagen_x0020_2" o:spid="_x0000_i1026"
- type="#_x0000_t75" style='width:68.25pt;height:36.75pt;visibility:visible;
- mso-wrap-style:square'>
- <v:imagedata src="Fiware-Open-Spec-API-Stream-Oriented-GE_archivos/image003.png"
-  o:title="naevatec"/>
-</v:shape><![endif]--><![if !vml]><img width=91 height=49
-src="Fiware-Open-Spec-API-Stream-Oriented-GE_archivos/image003.png" v:shapes="Imagen_x0020_2"><![endif]><!--[if gte vml 1]><v:shape
- id="Imagen_x0020_4" o:spid="_x0000_i1025" type="#_x0000_t75" alt="http://www.kurento.org/sites/default/files/kurento.png"
- style='width:60.75pt;height:36.75pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="Fiware-Open-Spec-API-Stream-Oriented-GE_archivos/image005.png"
-  o:title="kurento"/>
-</v:shape><![endif]--><![if !vml]><img width=81 height=49
-src="Fiware-Open-Spec-API-Stream-Oriented-GE_archivos/image005.png"
-alt="http://www.kurento.org/sites/default/files/kurento.png" v:shapes="Imagen_x0020_4"><![endif]></span><span
-lang=EN-GB style='mso-ansi-language:EN-GB'><o:p></o:p></span></p>
+    
+    
 
-<p class=Normal1><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
 
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='font-size:
-21.0pt;line-height:137%;font-family:"Trebuchet MS","sans-serif";mso-fareast-font-family:
-"Trebuchet MS";mso-bidi-font-family:"Trebuchet MS";mso-ansi-language:EN-GB'>Stream-oriented
-GE Open API</span><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p></o:p></span></p>
 
-<p class=Normal1 style='margin-bottom:10.0pt;line-height:137%'><i
-style='mso-bidi-font-style:normal'><span lang=EN-GB style='font-size:13.0pt;
-line-height:137%;font-family:"Trebuchet MS","sans-serif";mso-fareast-font-family:
-"Trebuchet MS";mso-bidi-font-family:"Trebuchet MS";color:#666666;mso-ansi-language:
-EN-GB'>Date: 2<sup>nd</sup> September 2015</span></i><span lang=EN-GB
-style='mso-ansi-language:EN-GB'><o:p></o:p></span></p>
 
-<p class=Normal1><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
 
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>This Version:<o:p></o:p></span></p>
+<li><a href="#API_specification">API Specification</a>
+    <ul class="toc">
+    
 
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><a
-href="http://kurento.github.io/doc-kurento"><span lang=EN-GB style='color:#1155CC;
-mso-ansi-language:EN-GB'>http://kurento.github.io/doc-kurento</span></a><span
-lang=EN-GB style='mso-ansi-language:EN-GB'><o:p></o:p></span></p>
+                        <li>
+                            
+                                <a href="#resource_group_websocket-connection" title = "Group WebSocket Connection">Group WebSocket Connection</a>
+                            
+                            <ul class="toc">
+                              
+                                
+                                    <li>
+                                        <a href="#resource_websocket-handshake" title = "Resource WebSocket Handshake">Resource WebSocket Handshake</a>
+                                        <ul class="toc  ">
+                                        
+                                            
+                                                <li><a href="#action_handshake" title ="GET - Handshake">GET - Handshake</a></li>
+                                            
 
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>Previous Version:<o:p></o:p></span></p>
+                                        
+                                        </ul>
+                                    </li>
+                                
+                              
+                            </ul>
+                        </li>
+                      
 
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><a
-href="http://forge.fiware.org/plugins/mediawiki/wiki/fiware/index.php/StreamOriented_Open_API_Specification"><span lang=EN-GB style='color:#1155CC;
-mso-ansi-language:EN-GB'>http://forge.fiware.org/plugins/mediawiki/wiki/fiware/index.php/StreamOriented_Open_API_Specification</span></a><span
-lang=EN-GB style='mso-ansi-language:EN-GB'><o:p></o:p></span></p>
+                        <li>
+                            
+                                <a href="#resource_group_create" title = "Group Create">Group Create</a>
+                            
+                            <ul class="toc">
+                              
+                            </ul>
+                        </li>
+                      
 
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>Latest Version:<o:p></o:p></span></p>
+                        <li>
+                            
+                                <a href="#resource_group_invoke" title = "Group Invoke">Group Invoke</a>
+                            
+                            <ul class="toc">
+                              
+                            </ul>
+                        </li>
+                      
 
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><a
-href="http://www.kurento.org/docs/current/mastering/kurento_protocol.html"><span lang=EN-GB style='color:#1155CC;
-mso-ansi-language:EN-GB'>http://www.kurento.org/docs/current/mastering/kurento_protocol.html</span></a><span lang=EN-GB
-style='mso-ansi-language:EN-GB'><o:p></o:p></span></p>
+                        <li>
+                            
+                                <a href="#resource_group_release" title = "Group Release">Group Release</a>
+                            
+                            <ul class="toc">
+                              
+                            </ul>
+                        </li>
+                      
 
-<p class=Normal1><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+                        <li>
+                            
+                                <a href="#resource_group_subscribe" title = "Group Subscribe">Group Subscribe</a>
+                            
+                            <ul class="toc">
+                              
+                            </ul>
+                        </li>
+                      
 
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>Editors:<o:p></o:p></span></p>
+                        <li>
+                            
+                                <a href="#resource_group_unsubscribe" title = "Group Unsubscribe">Group Unsubscribe</a>
+                            
+                            <ul class="toc">
+                              
+                            </ul>
+                        </li>
+                      
 
-<p class=Normal1CxSpMiddle style='margin-left:36.0pt;mso-add-space:auto;
-line-height:137%'><span lang=EN-US style='mso-ansi-language:EN-US'>Universidad
-Rey Juan Carlos<o:p></o:p></span></p>
+                        <li>
+                            
+                                <a href="#resource_group_onevent" title = "Group OnEvent">Group OnEvent</a>
+                            
+                            <ul class="toc">
+                              
+                            </ul>
+                        </li>
+                      
+    <li><a href="#examples">Examples</a></li>
+    </ul>
+</li>
+    
+    
+    
+   </ul>
+</section>
 
-<p class=Normal1><span lang=EN-US style='mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></p>
+  </div>
+  <div id="API-content">
+  
+	
 
-<p class=Normal1 style='line-height:137%'><span class=GramE><span lang=EN-GB
-style='mso-ansi-language:EN-GB'>Copyright &copy; 2010-2015 by URJC.</span></span><span
-lang=EN-GB style='mso-ansi-language:EN-GB'> All Rights Reserved.<o:p></o:p></span></p>
+	
 
-<p class=Normal1><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
 
-<div style='mso-element:para-border-div;border:none;border-top:solid windowtext 1.0pt;
-mso-border-top-alt:solid windowtext .5pt;padding:1.0pt 0cm 0cm 0cm'>
 
-<p class=Normal1 style='border:none;mso-border-top-alt:solid windowtext .5pt;
-padding:0cm;mso-padding-alt:1.0pt 0cm 0cm 0cm'><span lang=EN-GB
-style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+	
 
+	
+
+
+
+
+	
+
+	
+		
+		<dl>
+		
+			
+		
+			
+		
+
+		
+			
+		
+			
+		
+
+		<dt class="versionLabel">Latest version:</dt> 
+		<dd class="versionValue"> <a href="http://kurento.lab.fiware.org:8888latest">http://kurento.lab.fiware.org:8888latest</a> </dd>
+
+
+		</dl>
+	
+
+
+
+
+
+
+<hr>
+
+
+	<h2 id="abstract">Abstract</h2>
+	<p>The Stream Oriented API is a resource-oriented API accessed via WebSockets that uses JSON-RPC V2.0 based representations for information exchange. An RPC call is represented by sending a Request message to a server. The Request message has the following members:</p>
+<ul>
+<li>
+<p><code>jsonrpc</code>: a string specifying the version of the JSON-RPC protocol. It must be exactly <code>2.0</code>.</p>
+</li>
+<li>
+<p><code>id</code>: an unique identifier established by the client that contains a string or number. The server must reply with the same value in the Response message. This member is used to correlate the context between both messages.</p>
+</li>
+<li>
+<p><code>method</code>: a string containing the name of the method to be invoked.</p>
+</li>
+<li>
+<p><code>params</code>: a structured value that holds the parameter values to be used during the invocation of the method.</p>
+</li>
+</ul>
+<p>When an RPC call is made by a client, the server replies with a response object. In the case of a success, the response object contains the following members:</p>
+<ul>
+<li>
+<p><code>jsonrpc</code>: it must be exactly <code>2.0</code>.</p>
+</li>
+<li>
+<p><code>id</code>: it must match the value of the id member in the request object.</p>
+</li>
+<li>
+<p><code>result</code>: structured value which contains the invocation result.</p>
+</li>
+</ul>
+<p>In the case of an error, the response object contains the following members:</p>
+<ul>
+<li>
+<p><code>jsonrpc</code>: it must be exactly <code>2.0</code>.</p>
+</li>
+<li>
+<p><code>id</code>: it must match the value of the id member in the request object.</p>
+</li>
+<li>
+<p><code>error</code>: object describing the error through the following members:.</p>
+<ul>
+<li><code>code</code>: integer number that indicates the error type that occurred</li>
+<li><code>message</code>: string providing a short description of the error.</li>
+<li><code>data</code>: primitive or structured value that contains additional information about the error. It may be omitted. The value of this member is defined by the server.</li>
+</ul>
+</li>
+</ul>
+
+
+
+
+<hr>
+
+    
+    
+
+
+
+
+		
+	
+	
+
+
+
+
+
+	
+
+
+
+    
+
+  
+  <section id="API_specification">
+      <h1>API Specification</h1>
+      
+
+
+
+
+        
+            <section id="resource_group_websocket-connection" class="resourceGroup">
+            <h2 id="h-resource_group_websocket-connection">WebSocket Connection</h2>
+        
+	<p>To establish a WebSocket connection, the client sends a WebSocket handshake request, for which the media server returns a WebSocket handshake response.</p>
+        
+            <section id="resource_websocket-handshake" class="resource">
+                 <div class= "header" ><h3 id="h-resource_websocket-handshake">WebSocket Handshake [/kurento]</h3> </div>
+                
+                
+                
+
+		        
+                
+                
+
+
+
+
+
+
+    
+
+
+                
+
+
+                    
+                        <div id="action_handshake" class="action GET">
+
+                        
+    <h4 id="h-action_handshake">
+        Handshake -
+        GET
+        
+            /kurento
+        
+    </h4>
+
+        
+                            <div id="handshake_body" class="">
+                                
+                                
+                                
+                                
+			
+                                
+                                
+      
+                                    
+        	                            
+                                            
+                                            
+                                            
+                                            
+
+<div class="rest-packet-div">
+
+            <span class="packetType">Request </span> 
+        
+    
+        
+    
+        
+    
+        
+    
+            
+            
+     
 </div>
+        	                            
+    
+        	                            
+        		                            
+                                        
+                                        
+                                        
 
-<p class=Normal1><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+<div class="rest-packet-div">
 
-<h1 style='line-height:137%;mso-pagination:widow-orphan;page-break-after:auto'><a
-name=h.fwravaxnwaea></a><b style='mso-bidi-font-weight:normal'><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>Abstract</span></b><span lang=EN-GB
-style='mso-ansi-language:EN-GB'><o:p></o:p></span></h1>
-
-<p class=Normal1><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>The Stream Oriented GE provides a framework devoted to simplify the
-development of complex interactive multimedia applications through a rich
-family of APIs and toolboxes. It provides a media server and a set of client
-APIs making simple the development of advanced video applications for web and
-smartphone platforms. The Stream Oriented API is a resource-oriented API
-accessed via <span class=SpellE>WebSockets</span> that uses JSON-RPC V2.0 based
-representations for information exchange. <o:p></o:p></span></p>
-
-<p class=Normal1><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
-
-<h1 style='line-height:137%;mso-pagination:widow-orphan;page-break-after:auto'><a
-name=h.54eqm9mim8n9></a><b style='mso-bidi-font-weight:normal'><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>Status of this document</span></b><span
-lang=EN-GB style='mso-ansi-language:EN-GB'><o:p></o:p></span></h1>
-
-<p class=Normal1><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>04/09/2015 - Document released<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><o:p>&nbsp;</o:p></span></p>
-
-<div style='mso-element:para-border-div;border:none;border-top:solid windowtext 1.0pt;
-mso-border-top-alt:solid windowtext .5pt;padding:1.0pt 0cm 0cm 0cm'>
-
-<p class=Normal1 style='border:none;mso-border-top-alt:solid windowtext .5pt;
-padding:0cm;mso-padding-alt:1.0pt 0cm 0cm 0cm'><span lang=EN-GB
-style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
-
+            <span class="packetType">Response 101</span> 
+            
+            
+     
 </div>
-
-<p class=Normal1><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal><a name=h.bw3uettbng0u></a><span lang=EN-GB
-style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
-
-<span lang=EN-GB style='font-size:11.0pt;line-height:115%;font-family:"Arial","sans-serif";
-mso-fareast-font-family:Arial;mso-ansi-language:EN-GB;mso-fareast-language:
-ES;mso-bidi-language:AR-SA'><br clear=all style='mso-special-character:line-break;
-page-break-before:always'>
-</span>
-
-<p class=Normal1><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal><a name=h.xtii8prmu8c6></a><span lang=EN-GB
-style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
-
-<h1 style='line-height:137%;mso-pagination:widow-orphan;page-break-after:auto'><a
-name=h.me37er8wkv9></a><b style='mso-bidi-font-weight:normal'><span lang=EN-GB
-style='mso-ansi-language:EN-GB'>API Summary</span></b><span lang=EN-GB
-style='mso-ansi-language:EN-GB'><o:p></o:p></span></h1>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>The Stream Oriented GE Open API provides full control of the Media
-Server through Media Elements, which are the building blocks providing a
-specific media functionality. They are used to send, receive, process and
-transform media. This API provides a toolbox of Media Elements ready to be
-used. It also provides the capability of creating Media Pipelines by joining
-Media Elements of the toolbox.<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>The API requires full-duplex communications between client and server
-infrastructure. For this reason, is based on <span class=SpellE>WebSocket</span>
-transports.<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><o:p>&nbsp;</o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>Previous to issuing commands, the Stream Oriented GE Open API client
-requires establishing a <span class=SpellE>WebSocket</span> connection with the
-server infrastructure. Once the <span class=SpellE>WebSocket</span> has been
-established, the Stream Oriented GE Open API offers five different types of
-request/response messages:<o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:36.0pt;text-indent:-18.0pt;line-height:
-137%;mso-list:l3 level1 lfo4'><![if !supportLists]><span lang=EN-GB
-style='mso-ansi-language:EN-GB'><span style='mso-list:Ignore'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><a
-href="#_Create"><span class=GramE><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>create</span></span></a><span lang=EN-GB style='mso-ansi-language:EN-GB'>:
-Instantiates a new pipeline or media element in the media server.<o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:36.0pt;text-indent:-18.0pt;line-height:
-137%;mso-list:l3 level1 lfo4'><![if !supportLists]><span lang=EN-GB
-style='mso-ansi-language:EN-GB'><span style='mso-list:Ignore'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><a
-href="#_Invoke"><span class=GramE><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>invoke</span></span></a><span lang=EN-GB style='mso-ansi-language:EN-GB'>:
-Calls a method of an existing media element.<o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:36.0pt;text-indent:-18.0pt;line-height:
-137%;mso-list:l3 level1 lfo4'><![if !supportLists]><span lang=EN-GB
-style='mso-ansi-language:EN-GB'><span style='mso-list:Ignore'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><a
-href="#_Release"><span class=GramE><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>release</span></span></a><span lang=EN-GB style='mso-ansi-language:EN-GB'>:
-Explicit termination of a media element.<o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:36.0pt;text-indent:-18.0pt;line-height:
-137%;mso-list:l3 level1 lfo4'><![if !supportLists]><span lang=EN-GB
-style='mso-ansi-language:EN-GB'><span style='mso-list:Ignore'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><a
-href="#_Subscribe"><span class=GramE><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>subscribe</span></span></a><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>: Creates a subscription to a media event in a media element.<o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:36.0pt;text-indent:-18.0pt;line-height:
-137%;mso-list:l3 level1 lfo4'><![if !supportLists]><span lang=EN-GB
-style='mso-ansi-language:EN-GB'><span style='mso-list:Ignore'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><a
-href="#_Unsubscribe"><span class=GramE><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>unsubscribe</span></span></a><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>: Removes an existing subscription to a media event.<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>The Stream Oriented GE API allows to servers send requests to clients:<o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:36.0pt;text-indent:-18.0pt;line-height:
-137%;mso-list:l3 level1 lfo4'><![if !supportLists]><span lang=EN-GB
-style='mso-ansi-language:EN-GB'><span style='mso-list:Ignore'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><a
-href="#_OnEvent"><span class=SpellE><span class=GramE><span lang=EN-GB
-style='mso-ansi-language:EN-GB'>onEvent</span></span></span></a><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>: This request is sent from server
-to clients when a media event occurs.<o:p></o:p></span></p>
-
-<h1 style='line-height:137%;mso-pagination:widow-orphan;page-break-after:auto'><a
-name=h.sg50bvqobxzs></a><b style='mso-bidi-font-weight:normal'><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>Introduction</span></b><span
-lang=EN-GB style='mso-ansi-language:EN-GB'><o:p></o:p></span></h1>
-
-<p class=Normal1><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>The Stream Oriented API is a resource-oriented API accessed via <span
-class=SpellE>WebSockets</span> that uses JSON-RPC V2.0 based representations
-for information exchange. <o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><a
-href="http://www.w3.org/TR/IndexedDB/"></a><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><o:p></o:p></span></p>
-
-<h1 style='line-height:137%;mso-pagination:widow-orphan;page-break-after:auto'><a
-name=h.l5o8kg4usbfd></a><b style='mso-bidi-font-weight:normal'><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>Terminology</span></b><span
-lang=EN-GB style='mso-ansi-language:EN-GB'><o:p></o:p></span></h1>
-
-<p class=Normal1><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>This specification is intended for both software developers and <span
-class=SpellE>implementors</span> of this GE. For developers, this document
-details the API to build interactive multimedia applications compliant with the
-</span><a
-href="http://forge.fiware.org/plugins/mediawiki/wiki/fiware/index.php/FIWARE.OpenSpecification.Data.StreamOriented_R4"><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>GE Architecture Description</span></a><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>.<o:p></o:p></span></p>
-
-<p class=Normal1><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
-
-<h1 style='line-height:137%;mso-pagination:widow-orphan;page-break-after:auto'><a
-name=h.vkl0vw8xqbx2></a><b style='mso-bidi-font-weight:normal'><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>Common Payload Definition</span></b><span
-lang=EN-GB style='mso-ansi-language:EN-GB'><o:p></o:p></span></h1>
-
-<h2 style='line-height:137%;mso-pagination:widow-orphan;page-break-after:auto'><a
-name=h.glat47ll0yre></a><span lang=EN-GB style='mso-ansi-language:EN-GB'>Request<o:p></o:p></span></h2>
-
-<p class=Normal1><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>An RPC call is represented by sending a request message to a server. The
-request message has the following members:<o:p></o:p></span></p>
-
-<h3 style='line-height:137%;mso-pagination:widow-orphan;page-break-after:auto'><a
-name=h.xthm6wcjbw2m></a><span lang=EN-GB style='mso-ansi-language:EN-GB'>Fields<o:p></o:p></span></h3>
-
-<p class=Normal1><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span class=SpellE><span class=GramE><b
-style='mso-bidi-font-weight:normal'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>jsonrpc</span></b></span></span><span lang=EN-GB style='mso-ansi-language:
-EN-GB'> <i style='mso-bidi-font-style:normal'>(required, string)</i><o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><i style='mso-bidi-font-style:normal'><span
-lang=EN-GB style='mso-ansi-language:EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></i><span
-class=GramE><span lang=EN-GB style='mso-ansi-language:EN-GB'>JSON-RPC version.</span></span><span
-lang=EN-GB style='mso-ansi-language:EN-GB'> It must be exactly </span><span
-lang=EN-GB style='font-family:"Courier New";mso-ansi-language:EN-GB'>2.0</span><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>.<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span class=GramE><b
-style='mso-bidi-font-weight:normal'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>id</span></b></span><span lang=EN-GB style='mso-ansi-language:EN-GB'> (<i
-style='mso-bidi-font-style:normal'>optional, string</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Unique identifier
-established by the client in the request.<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span class=GramE><b
-style='mso-bidi-font-weight:normal'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>method</span></b></span><span lang=EN-GB style='mso-ansi-language:EN-GB'>
-(<i style='mso-bidi-font-style:normal'>required, string</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class=GramE>Name
-of the method to be invoked.</span><o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span class=SpellE><span class=GramE><b
-style='mso-bidi-font-weight:normal'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>params</span></b></span></span><span lang=EN-GB style='mso-ansi-language:
-EN-GB'> (<i style='mso-bidi-font-style:normal'>optional, object</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Structured value with
-parameters used in the invocation of the method.<o:p></o:p></span></p>
-
-<p class=Normal1><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
-
-<h2 style='line-height:137%;mso-pagination:widow-orphan;page-break-after:auto'><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>Successful Response<o:p></o:p></span></h2>
-
-<p class=Normal1><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>When an RPC call is made by a client, the server replies with a response
-object. In the case of a success, the response object contains the following
-members:<o:p></o:p></span></p>
-
-<h3 style='line-height:137%;mso-pagination:widow-orphan;page-break-after:auto'><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>Fields<o:p></o:p></span></h3>
-
-<p class=Normal1><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span class=SpellE><span class=GramE><b
-style='mso-bidi-font-weight:normal'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>jsonrpc</span></b></span></span><span lang=EN-GB style='mso-ansi-language:
-EN-GB'> <i style='mso-bidi-font-style:normal'>(required, string)</i><o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><i style='mso-bidi-font-style:normal'><span
-lang=EN-GB style='mso-ansi-language:EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></i><span
-class=GramE><span lang=EN-GB style='mso-ansi-language:EN-GB'>JSON-RPC version.</span></span><span
-lang=EN-GB style='mso-ansi-language:EN-GB'> It must be exactly </span><span
-lang=EN-GB style='font-family:"Courier New";mso-ansi-language:EN-GB'>2.0</span><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>.<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span class=GramE><b
-style='mso-bidi-font-weight:normal'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>id</span></b></span><span lang=EN-GB style='mso-ansi-language:EN-GB'> (<i
-style='mso-bidi-font-style:normal'>required, string</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>It must match the value
-of the id member in the request object.<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span class=GramE><b
-style='mso-bidi-font-weight:normal'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>result</span></b></span><span lang=EN-GB style='mso-ansi-language:EN-GB'>
-(<i style='mso-bidi-font-style:normal'>optional, object</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class=GramE>Structured
-value which contains the invocation result.</span><o:p></o:p></span></p>
-
-<h2 style='line-height:137%;mso-pagination:widow-orphan;page-break-after:auto'><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>Error Response<o:p></o:p></span></h2>
-
-<p class=Normal1><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>When an RPC call is made by a client, the server replies with a response
-object. In the case of an error, the response object contains the following
-members:<o:p></o:p></span></p>
-
-<h3 style='line-height:137%;mso-pagination:widow-orphan;page-break-after:auto'><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>Fields<o:p></o:p></span></h3>
-
-<p class=Normal1><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span class=SpellE><span class=GramE><b
-style='mso-bidi-font-weight:normal'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>jsonrpc</span></b></span></span><span lang=EN-GB style='mso-ansi-language:
-EN-GB'> <i style='mso-bidi-font-style:normal'>(required, string)</i><o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><i style='mso-bidi-font-style:normal'><span
-lang=EN-GB style='mso-ansi-language:EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></i><span
-class=GramE><span lang=EN-GB style='mso-ansi-language:EN-GB'>JSON-RPC version.</span></span><span
-lang=EN-GB style='mso-ansi-language:EN-GB'> It must be exactly </span><span
-lang=EN-GB style='font-family:"Courier New";mso-ansi-language:EN-GB'>2.0</span><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>.<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span class=GramE><b
-style='mso-bidi-font-weight:normal'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>id</span></b></span><span lang=EN-GB style='mso-ansi-language:EN-GB'> (<i
-style='mso-bidi-font-style:normal'>required, string</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>It must match the value
-of the id member in the request object.<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span class=GramE><b
-style='mso-bidi-font-weight:normal'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>error</span></b></span><span lang=EN-GB style='mso-ansi-language:EN-GB'>
-(<i style='mso-bidi-font-style:normal'>required, object</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Object describing the
-error through the following members:<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class=GramE><b
-style='mso-bidi-font-weight:normal'>code</b></span> (<i style='mso-bidi-font-style:
-normal'>required, number</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
-class=GramE>Integer number that indicates the error type that occurred.</span><o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class=GramE><b
-style='mso-bidi-font-weight:normal'>message</b></span> (<i style='mso-bidi-font-style:
-normal'>required, string</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
-class=GramE>String providing a short description of the error.</span><o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class=GramE><b
-style='mso-bidi-font-weight:normal'>data</b></span> (<i style='mso-bidi-font-style:
-normal'>optional, object</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:72.0pt;line-height:137%'><span class=GramE><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>Primitive or structured value that
-contains additional information about the error.</span></span><span lang=EN-GB
-style='mso-ansi-language:EN-GB'> It may be omitted. The value of this member is
-defined by the server.<o:p></o:p></span></p>
-
-<p class=Normal1><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
-
-<p class=Normal1><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
-
-<h1 style='line-height:137%;mso-pagination:widow-orphan;page-break-after:auto'><a
-name=h.1kl511cqvpdh></a><b style='mso-bidi-font-weight:normal'><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>API specification</span></b><span
-lang=EN-GB style='mso-ansi-language:EN-GB'><o:p></o:p></span></h1>
-
-<h2 style='line-height:137%;mso-pagination:widow-orphan;page-break-after:auto'><a
-name=h.6nsrjvwusxm4></a><a name="_Create"></a><span lang=EN-GB
-style='mso-ansi-language:EN-GB'>Create<o:p></o:p></span></h2>
-
-<p class=Normal1><span lang=EN-US style='mso-ansi-language:EN-US'>Create
-message requests the creation of an element of the toolbox. The parameter type
-specifies the type of the object to be created. The parameter </span><span
-class=SpellE><span lang=EN-US style='font-family:"Courier New";mso-ansi-language:
-EN-US'>constructorParams</span></span><span lang=EN-US style='mso-ansi-language:
-EN-US'> contains all the information needed to create the object. Each message
-needs different </span><span class=SpellE><span lang=EN-US style='font-family:
-"Courier New";mso-ansi-language:EN-US'>constructorParams</span></span><span
-lang=EN-US style='mso-ansi-language:EN-US'> to create the object.<o:p></o:p></span></p>
-
-<p class=Normal1><span lang=EN-US style='mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></p>
-
-<p class=Normal1><span lang=EN-US style='mso-ansi-language:EN-US'>A </span><span
-class=SpellE><span lang=EN-US style='font-family:"Courier New";mso-ansi-language:
-EN-US'>sessionId</span></span><span lang=EN-US style='mso-ansi-language:EN-US'>
-parameter is included with the identifier of the current session. The value of
-this parameter is sent by Kurento Media Server to the client in each response.
-Only the first request from client to server is allowed to not include the </span><span
-class=SpellE><span lang=EN-US style='font-family:"Courier New";mso-ansi-language:
-EN-US'>sessionId</span></span><span lang=EN-US style='mso-ansi-language:EN-US'>
-(because at this point is unknown for the client).<o:p></o:p></span></p>
-
-<p class=Normal1><span lang=EN-US style='mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></p>
-
-<h3 style='line-height:137%;mso-pagination:widow-orphan;page-break-after:auto'><a
-name=h.fy3fhva95pug></a><span lang=EN-GB style='mso-ansi-language:EN-GB'>Request<o:p></o:p></span></h3>
-
-<p class=Normal1><span lang=EN-US style='mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><b style='mso-bidi-font-weight:normal'><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>Parameters</span></b><span
-lang=EN-GB style='mso-ansi-language:EN-GB'><o:p></o:p></span></p>
-
-<p class=Normal1><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span class=GramE><b
-style='mso-bidi-font-weight:normal'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>method</span></b></span><span lang=EN-GB style='mso-ansi-language:EN-GB'>
-(<i style='mso-bidi-font-style:normal'>required, string</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Method is "create".<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span class=SpellE><span class=GramE><b
-style='mso-bidi-font-weight:normal'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>params</span></b></span></span><span lang=EN-GB style='mso-ansi-language:
-EN-GB'> (<i style='mso-bidi-font-style:normal'>required, object</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='text-indent:36.0pt;line-height:137%'><span lang=EN-GB
-style='mso-ansi-language:EN-GB'>Parameters for the invocation of the create
-message, containing these members:<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class=GramE><b
-style='mso-bidi-font-weight:normal'>type</b></span> (<i style='mso-bidi-font-style:
-normal'>required, string</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
-class=GramE>Media element to be created.</span> Allowed Values:<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
-class=SpellE>WebRtcEndpoint</span><o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:72.0pt;text-indent:36.0pt;line-height:137%'><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>This Endpoint offers media streaming
-using <span class=SpellE>WebRTC</span>.<o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:72.0pt;line-height:137%'><span
-class=SpellE><span lang=EN-GB style='mso-ansi-language:EN-GB'>RtpEndpoint</span></span><span
-lang=EN-GB style='mso-ansi-language:EN-GB'><o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:108.0pt;line-height:137%'><span
-class=GramE><span lang=EN-GB style='mso-ansi-language:EN-GB'>Endpoint that
-provides bidirectional content delivery capabilities with remote networked
-peers through RTP protocol.</span></span><span lang=EN-GB style='mso-ansi-language:
-EN-GB'> It contains paired sink and source <span class=SpellE>MediaPad</span>
-for audio and video.<o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:72.0pt;line-height:137%'><span
-class=SpellE><span lang=EN-GB style='mso-ansi-language:EN-GB'>HttpPostEndpoint</span></span><span
-lang=EN-GB style='mso-ansi-language:EN-GB'><o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:108.0pt;line-height:137%'><span
-class=GramE><span lang=EN-GB style='mso-ansi-language:EN-GB'>This type of
-Endpoint provide</span></span><span lang=EN-GB style='mso-ansi-language:EN-GB'>
-unidirectional communications. Its <span class=SpellE>MediaSource</span> are
-related to HTTP POST method. It contains sink <span class=SpellE>MediaPad</span>
-for audio and video, which provide access to an HTTP file upload function.<o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:72.0pt;line-height:137%'><span
-class=SpellE><span lang=EN-GB style='mso-ansi-language:EN-GB'>PlayerEndpoint</span></span><span
-lang=EN-GB style='mso-ansi-language:EN-GB'><o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:108.0pt;line-height:137%'><span lang=EN-GB
-style='mso-ansi-language:EN-GB'>It provides function to retrieve contents from <span
-class=SpellE>seekable</span> sources in reliable mode (does not discard media
-information) and inject them into KMS. It contains one <span class=SpellE>MediaSource</span>
-for each media type detected.<o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:72.0pt;line-height:137%'><span
-class=SpellE><span lang=EN-GB style='mso-ansi-language:EN-GB'>RecorderEndpoint</span></span><span
-lang=EN-GB style='mso-ansi-language:EN-GB'><o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:108.0pt;line-height:137%'><span lang=EN-GB
-style='mso-ansi-language:EN-GB'>Provides function to store contents in reliable
-mode (doesn't discard data). It contains <span class=SpellE>MediaSink</span>
-pads for audio and video.<o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:72.0pt;line-height:137%'><span
-class=SpellE><span lang=EN-GB style='mso-ansi-language:EN-GB'>FaceOverlayFilter</span></span><span
-lang=EN-GB style='mso-ansi-language:EN-GB'><o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:108.0pt;line-height:137%'><span lang=EN-GB
-style='mso-ansi-language:EN-GB'>It detects faces in a video feed. The face is
-then overlaid with an image.<o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:72.0pt;line-height:137%'><span
-class=SpellE><span lang=EN-GB style='mso-ansi-language:EN-GB'>ZBarFilter</span></span><span
-lang=EN-GB style='mso-ansi-language:EN-GB'><o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:108.0pt;line-height:137%'><span lang=EN-GB
-style='mso-ansi-language:EN-GB'>This Filter detects QR and bar codes in a video
-feed. When a code is found, the filter raises a <span class=SpellE>CodeFound</span>.<o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:72.0pt;line-height:137%'><span
-class=SpellE><span lang=EN-GB style='mso-ansi-language:EN-GB'>GStreamerFilter</span></span><span
-lang=EN-GB style='mso-ansi-language:EN-GB'><o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:108.0pt;line-height:137%'><span lang=EN-GB
-style='mso-ansi-language:EN-GB'>This is a generic Filter <span class=GramE>interface,
-that</span> creates <span class=SpellE>GStreamer</span> filters in the media
-server.<o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:72.0pt;line-height:137%'><span lang=EN-GB
-style='mso-ansi-language:EN-GB'>Composite<o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:108.0pt;line-height:137%'><span
-class=GramE><span lang=EN-GB style='mso-ansi-language:EN-GB'>A Hub that mixes
-the audio stream of its connected sources and constructs a grid with the video
-streams of its connected sources into its sink.</span></span><span lang=EN-GB
-style='mso-ansi-language:EN-GB'><o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:72.0pt;line-height:137%'><span lang=EN-GB
-style='mso-ansi-language:EN-GB'>Dispatcher<o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:72.0pt;line-height:137%'><span lang=EN-GB
-style='mso-ansi-language:EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
-class=GramE>A Hub that allows routing between arbitrary port pairs.</span><o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:72.0pt;line-height:137%'><span
-class=SpellE><span lang=EN-GB style='mso-ansi-language:EN-GB'>DispatcherOneToMany</span></span><span
-lang=EN-GB style='mso-ansi-language:EN-GB'><o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:72.0pt;line-height:137%'><span lang=EN-GB
-style='mso-ansi-language:EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
-class=GramE>A Hub that sends a given source to all the connected sinks.</span><o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class=SpellE><span
-class=GramE><b style='mso-bidi-font-weight:normal'>constructorParams</b></span></span><b
-style='mso-bidi-font-weight:normal'> </b>(<i style='mso-bidi-font-style:normal'>required,
-object</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:72.0pt;line-height:137%'><span class=GramE><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>Additional parameters.</span></span><span
-lang=EN-GB style='mso-ansi-language:EN-GB'> As minimum, the identifier of the
-media pipeline should be included here.<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class=SpellE><span
-class=GramE><b style='mso-bidi-font-weight:normal'>sessionId</b></span></span><b
-style='mso-bidi-font-weight:normal'> </b>(<i style='mso-bidi-font-style:normal'>required,
-string</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
-class=GramE>Session identifier.</span> <o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><o:p>&nbsp;</o:p></span></p>
-
-<h3 style='line-height:137%;mso-pagination:widow-orphan;page-break-after:auto'><a
-name=h.lkc1fubc546s></a><span lang=EN-GB style='mso-ansi-language:EN-GB'>Response<o:p></o:p></span></h3>
-
-<p class=Normal1><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><b style='mso-bidi-font-weight:normal'><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>Parameters</span></b><span
-lang=EN-GB style='mso-ansi-language:EN-GB'><o:p></o:p></span></p>
-
-<p class=Normal1><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span class=GramE><b
-style='mso-bidi-font-weight:normal'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>result</span></b></span><span lang=EN-GB style='mso-ansi-language:EN-GB'>
-(<i style='mso-bidi-font-style:normal'>required, object</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Result of the create
-invocation:<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class=GramE><b
-style='mso-bidi-font-weight:normal'>value</b></span> (<i style='mso-bidi-font-style:
-normal'>required, number</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
-class=GramE>Identifier of the created media element.</span><o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class=SpellE><span
-class=GramE><b style='mso-bidi-font-weight:normal'>sessionId</b></span></span>
-(<i style='mso-bidi-font-style:normal'>required, string</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
-class=GramE>Session identifier.</span><o:p></o:p></span></p>
-
-<p class=Normal1><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
-
-<h2 style='line-height:137%;mso-pagination:widow-orphan;page-break-after:auto'><a
-name="_Invoke"></a><span lang=EN-GB style='mso-ansi-language:EN-GB'>Invoke<o:p></o:p></span></h2>
-
-<p class=Normal1><span lang=EN-US style='mso-ansi-language:EN-US'>Invoke
-message requests the invocation of an operation in the specified object. The
-parameter object indicates the </span><span lang=EN-US style='font-family:"Courier New";
-mso-ansi-language:EN-US'>id</span><span lang=EN-US style='mso-ansi-language:
-EN-US'> of the object in which the operation will be invoked. The parameter
-operation carries the name of the operation to be executed. Finally, the
-parameter </span><span class=SpellE><span lang=EN-US style='font-family:"Courier New";
-mso-ansi-language:EN-US'>operationParams</span></span><span lang=EN-US
-style='mso-ansi-language:EN-US'> has the parameters needed to execute the
-operation.<o:p></o:p></span></p>
-
-<p class=Normal1><span lang=EN-US style='mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></p>
-
-<h3 style='line-height:137%;mso-pagination:widow-orphan;page-break-after:auto'><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>Request<o:p></o:p></span></h3>
-
-<p class=Normal1><span lang=EN-US style='mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><b style='mso-bidi-font-weight:normal'><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>Parameters</span></b><span
-lang=EN-GB style='mso-ansi-language:EN-GB'><o:p></o:p></span></p>
-
-<p class=Normal1><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span class=GramE><b
-style='mso-bidi-font-weight:normal'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>method</span></b></span><span lang=EN-GB style='mso-ansi-language:EN-GB'>
-(<i style='mso-bidi-font-style:normal'>required, string</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Method is "invoke".<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span class=SpellE><span class=GramE><b
-style='mso-bidi-font-weight:normal'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>params</span></b></span></span><span lang=EN-GB style='mso-ansi-language:
-EN-GB'> (<i style='mso-bidi-font-style:normal'>required, object</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class=GramE><b
-style='mso-bidi-font-weight:normal'>object</b></span> (<i style='mso-bidi-font-style:
-normal'>required, number</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
-class=GramE>Identifier of the source media element.</span><o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class=GramE><b
-style='mso-bidi-font-weight:normal'>operation</b></span><b style='mso-bidi-font-weight:
-normal'> </b>(<i style='mso-bidi-font-style:normal'>required, string</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:36.0pt;text-indent:36.0pt;line-height:137%'><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>Operation invoked. Allowed Values:<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
-class=GramE>connect</span><o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:108.0pt;line-height:137%'><span lang=EN-GB
-style='mso-ansi-language:EN-GB'>Connect two media elements.<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
-class=GramE>play</span><o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:108.0pt;line-height:137%'><span lang=EN-GB
-style='mso-ansi-language:EN-GB'>Start the play of a media (<span class=SpellE>PlayerEndPoint</span>).<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
-class=GramE>record</span><o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:108.0pt;line-height:137%'><span lang=EN-GB
-style='mso-ansi-language:EN-GB'>Start the record of a media (<span
-class=SpellE>RecorderEndPoint</span>).<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class=SpellE><span
-class=GramE><b style='mso-bidi-font-weight:normal'>operationParams</b></span></span><b
-style='mso-bidi-font-weight:normal'> </b>(<i style='mso-bidi-font-style:normal'>optional,
-object</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:36.0pt;line-height:137%'><span lang=EN-GB
-style='mso-ansi-language:EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
-class=GramE><b style='mso-bidi-font-weight:normal'>sink</b></span><b
-style='mso-bidi-font-weight:normal'> </b>(<i style='mso-bidi-font-style:normal'>required,
-number</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:36.0pt;line-height:137%'><span lang=EN-GB
-style='mso-ansi-language:EN-GB'><span style='mso-tab-count:2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
-class=GramE>Identifier of the sink media element.</span><o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class=SpellE><span
-class=GramE><b style='mso-bidi-font-weight:normal'>sessionId</b></span></span>
-(<i style='mso-bidi-font-style:normal'>required, string</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
-class=GramE>Session identifier.</span><o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><o:p>&nbsp;</o:p></span></p>
-
-<h3 style='line-height:137%;mso-pagination:widow-orphan;page-break-after:auto'><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>Response<o:p></o:p></span></h3>
-
-<p class=Normal1><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><b style='mso-bidi-font-weight:normal'><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>Parameters</span></b><span
-lang=EN-GB style='mso-ansi-language:EN-GB'><o:p></o:p></span></p>
-
-<p class=Normal1><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span class=GramE><b
-style='mso-bidi-font-weight:normal'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>result</span></b></span><span lang=EN-GB style='mso-ansi-language:EN-GB'>
-(<i style='mso-bidi-font-style:normal'>required, object</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class=SpellE><span
-class=GramE><b style='mso-bidi-font-weight:normal'>sessionId</b></span></span>
-(<i style='mso-bidi-font-style:normal'>required, string</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
-class=GramE>Session identifier.</span><o:p></o:p></span></p>
-
-<p class=Normal1><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
-
-<h2 style='line-height:137%;mso-pagination:widow-orphan;page-break-after:auto'><a
-name=h.evg858bqojc7></a><a name="_Release"></a><span lang=EN-GB
-style='mso-ansi-language:EN-GB'>Release<o:p></o:p></span></h2>
-
-<p class=Normal1><span lang=EN-US style='mso-ansi-language:EN-US'>Release
-message requests the release of the specified object. The parameter </span><span
-lang=EN-US style='font-family:"Courier New";mso-ansi-language:EN-US'>object</span><span
-lang=EN-US style='mso-ansi-language:EN-US'> indicates the </span><span
-lang=EN-US style='font-family:"Courier New";mso-ansi-language:EN-US'>id</span><span
-lang=EN-US style='mso-ansi-language:EN-US'> of the object to be released.<o:p></o:p></span></p>
-
-<p class=Normal1><span lang=EN-US style='mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></p>
-
-<h3 style='line-height:137%;mso-pagination:widow-orphan;page-break-after:auto'><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>Request<o:p></o:p></span></h3>
-
-<p class=Normal1><span lang=EN-US style='mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><b style='mso-bidi-font-weight:normal'><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>Parameters<o:p></o:p></span></b></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><o:p>&nbsp;</o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span class=GramE><b
-style='mso-bidi-font-weight:normal'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>method</span></b></span><span lang=EN-GB style='mso-ansi-language:EN-GB'>
-(<i style='mso-bidi-font-style:normal'>required, string</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Method is "release".<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span class=SpellE><span class=GramE><b
-style='mso-bidi-font-weight:normal'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>params</span></b></span></span><span lang=EN-GB style='mso-ansi-language:
-EN-GB'> (<i style='mso-bidi-font-style:normal'>required, object</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class=GramE><b
-style='mso-bidi-font-weight:normal'>object</b></span><b style='mso-bidi-font-weight:
-normal'> </b>(<i style='mso-bidi-font-style:normal'>required, number</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:72.0pt;line-height:137%'><span class=GramE><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>Identifier of the media element to
-be released.</span></span><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class=SpellE><span
-class=GramE><b style='mso-bidi-font-weight:normal'>sessionId</b></span></span><b
-style='mso-bidi-font-weight:normal'> </b>(<i style='mso-bidi-font-style:normal'>required,
-string</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
-class=GramE>Session identifier.</span><o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><o:p>&nbsp;</o:p></span></p>
-
-<h3 style='line-height:137%;mso-pagination:widow-orphan;page-break-after:auto'><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>Response<o:p></o:p></span></h3>
-
-<p class=Normal1><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><b style='mso-bidi-font-weight:normal'><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>Parameters</span></b><span
-lang=EN-GB style='mso-ansi-language:EN-GB'><o:p></o:p></span></p>
-
-<p class=Normal1><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span class=GramE><b
-style='mso-bidi-font-weight:normal'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>result</span></b></span><span lang=EN-GB style='mso-ansi-language:EN-GB'>
-(<i style='mso-bidi-font-style:normal'>required, object</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class=SpellE><span
-class=GramE><b style='mso-bidi-font-weight:normal'>sessionId</b></span></span>
-(<i style='mso-bidi-font-style:normal'>required, string</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
-class=GramE>Session identifier.</span><o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><o:p>&nbsp;</o:p></span></p>
-
-<h2 style='line-height:137%;mso-pagination:widow-orphan;page-break-after:auto'><a
-name="_Subscribe"></a><span lang=EN-GB style='mso-ansi-language:EN-GB'>Subscribe<o:p></o:p></span></h2>
-
-<p class=Normal1><span lang=EN-US style='mso-ansi-language:EN-US'>Subscribe
-message requests the subscription to a certain kind of events in the specified
-object. The parameter </span><span lang=EN-US style='font-family:"Courier New";
-mso-ansi-language:EN-US'>object</span><span lang=EN-US style='mso-ansi-language:
-EN-US'> indicates </span><span lang=EN-US style='font-family:"Courier New";
-mso-ansi-language:EN-US'>the</span><span lang=EN-US style='mso-ansi-language:
-EN-US'> id of the object to subscribe for events. The parameter </span><span
-lang=EN-US style='font-family:"Courier New";mso-ansi-language:EN-US'>type</span><span
-lang=EN-US style='mso-ansi-language:EN-US'> specifies the type of the events.
-If a client is subscribed for a certain type of events in an object, each time
-an event is fired in this object, a request with method </span><span
-class=SpellE><span lang=EN-US style='font-family:"Courier New";mso-ansi-language:
-EN-US'>onEvent</span></span><span lang=EN-US style='mso-ansi-language:EN-US'>
-is sent from the Media Server to the client.<o:p></o:p></span></p>
-
-<p class=Normal1><span lang=EN-US style='mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></p>
-
-<h3 style='line-height:137%;mso-pagination:widow-orphan;page-break-after:auto'><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>Request<o:p></o:p></span></h3>
-
-<p class=Normal1><span lang=EN-US style='mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><b style='mso-bidi-font-weight:normal'><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>Parameters</span></b><span
-lang=EN-GB style='mso-ansi-language:EN-GB'><o:p></o:p></span></p>
-
-<p class=Normal1><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span class=GramE><b
-style='mso-bidi-font-weight:normal'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>method</span></b></span><span lang=EN-GB style='mso-ansi-language:EN-GB'>
-(<i style='mso-bidi-font-style:normal'>required, string</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Method is "subscribe".<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span class=SpellE><span class=GramE><b
-style='mso-bidi-font-weight:normal'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>params</span></b></span></span><span lang=EN-GB style='mso-ansi-language:
-EN-GB'> (<i style='mso-bidi-font-style:normal'>required, object</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='text-indent:36.0pt;line-height:137%'><span lang=EN-GB
-style='mso-ansi-language:EN-GB'>Parameters for the invocation of the create
-message, containing these members:<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class=SpellE><span
-class=GramE><b style='mso-bidi-font-weight:normal'>constructorParams</b></span></span><b
-style='mso-bidi-font-weight:normal'> </b>(<i style='mso-bidi-font-style:normal'>required,
-object</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:72.0pt;line-height:137%'><span class=GramE><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>Additional parameters.</span></span><span
-lang=EN-GB style='mso-ansi-language:EN-GB'> As minimum, the identifier of the
-media pipeline should be included here.<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class=GramE><b
-style='mso-bidi-font-weight:normal'>type</b></span> (<i style='mso-bidi-font-style:
-normal'>required, string</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
-class=GramE>Media event to be subscribed.</span> Allowed Values:<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
-class=SpellE>CodeFound</span><o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:108.0pt;line-height:137%'><span lang=EN-GB
-style='mso-ansi-language:EN-GB'>Event raised by a <span class=SpellE>ZBarFilter</span>
-when a code is found in the data being streamed.<o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:72.0pt;line-height:137%'><span
-class=SpellE><span lang=EN-GB style='mso-ansi-language:EN-GB'>ConnectionStateChanged</span></span><span
-lang=EN-GB style='mso-ansi-language:EN-GB'><o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:72.0pt;text-indent:36.0pt;line-height:137%'><span
-class=GramE><span lang=EN-GB style='mso-ansi-language:EN-GB'>Indicates that the
-state of the connection has changed.</span></span><span lang=EN-GB
-style='mso-ansi-language:EN-GB'><o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:72.0pt;line-height:137%'><span
-class=SpellE><span lang=EN-GB style='mso-ansi-language:EN-GB'>ElementConnected</span></span><span
-lang=EN-GB style='mso-ansi-language:EN-GB'><o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:72.0pt;text-indent:36.0pt;line-height:137%'><span
-class=GramE><span lang=EN-GB style='mso-ansi-language:EN-GB'>Indicates that an
-element has been connected to other.</span></span><span lang=EN-GB
-style='mso-ansi-language:EN-GB'><o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:72.0pt;line-height:137%'><span
-class=SpellE><span lang=EN-GB style='mso-ansi-language:EN-GB'>ElementDisconnected</span></span><span
-lang=EN-GB style='mso-ansi-language:EN-GB'><o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:72.0pt;text-indent:36.0pt;line-height:137%'><span
-class=GramE><span lang=EN-GB style='mso-ansi-language:EN-GB'>Indicates that an
-element has been disconnected.</span></span><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:72.0pt;line-height:137%'><span
-class=SpellE><span lang=EN-GB style='mso-ansi-language:EN-GB'>EndOfStream</span></span><span
-lang=EN-GB style='mso-ansi-language:EN-GB'><o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:72.0pt;line-height:137%'><span lang=EN-GB
-style='mso-ansi-language:EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Event
-<span class=GramE>raised</span> when the stream that the element sends out is
-finished.<o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:72.0pt;line-height:137%'><span lang=EN-GB
-style='mso-ansi-language:EN-GB'>Error<o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:72.0pt;line-height:137%'><span lang=EN-GB
-style='mso-ansi-language:EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>An
-error related to the <span class=SpellE>MediaObject</span> has occurred.<o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:72.0pt;line-height:137%'><span
-class=SpellE><span lang=EN-GB style='mso-ansi-language:EN-GB'>MediaSessionStarted</span></span><span
-lang=EN-GB style='mso-ansi-language:EN-GB'><o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:72.0pt;text-indent:36.0pt;line-height:137%'><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>Event <span class=GramE>raised</span>
-when a session starts. This event has no data.<o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:72.0pt;line-height:137%'><span
-class=SpellE><span lang=EN-GB style='mso-ansi-language:EN-GB'>MediaSessionTerminated</span></span><span
-lang=EN-GB style='mso-ansi-language:EN-GB'><o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:72.0pt;text-indent:36.0pt;line-height:137%'><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>Event <span class=GramE>raised</span>
-when a session is terminated. This event has no data.<o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:72.0pt;line-height:137%'><span
-class=SpellE><span lang=EN-GB style='mso-ansi-language:EN-GB'>MediaStateChanged</span></span><span
-lang=EN-GB style='mso-ansi-language:EN-GB'><o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:72.0pt;text-indent:36.0pt;line-height:137%'><span
-class=GramE><span lang=EN-GB style='mso-ansi-language:EN-GB'>Indicates that the
-state of the media has changed.</span></span><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:36.0pt;text-indent:36.0pt;line-height:137%'><span
-class=SpellE><span lang=EN-GB style='mso-ansi-language:EN-GB'>ObjectCreated</span></span><span
-lang=EN-GB style='mso-ansi-language:EN-GB'><o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:36.0pt;text-indent:36.0pt;line-height:137%'><span
-lang=EN-GB style='mso-ansi-language:EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
-class=GramE>Indicates that an object has been created on the <span
-class=SpellE>mediaserver</span>.</span><o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:36.0pt;text-indent:36.0pt;line-height:137%'><span
-class=SpellE><span lang=EN-GB style='mso-ansi-language:EN-GB'>ObjectDestroyed</span></span><span
-lang=EN-GB style='mso-ansi-language:EN-GB'><o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:36.0pt;text-indent:36.0pt;line-height:137%'><span
-lang=EN-GB style='mso-ansi-language:EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
-class=GramE>Indicates that an object has been destroyed on the <span
-class=SpellE>mediaserver</span>.</span><o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:72.0pt;line-height:137%'><span
-class=SpellE><span lang=EN-GB style='mso-ansi-language:EN-GB'>OnIceCandidate</span></span><span
-lang=EN-GB style='mso-ansi-language:EN-GB'><o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:72.0pt;text-indent:36.0pt;line-height:137%'><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>Notify of a new gathered local
-candidate.<o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:72.0pt;line-height:137%'><span
-class=SpellE><span lang=EN-GB style='mso-ansi-language:EN-GB'>OnIceComponentStateChanged</span></span><span
-lang=EN-GB style='mso-ansi-language:EN-GB'><o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:72.0pt;text-indent:36.0pt;line-height:137%'><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>Notify about the change of an ICE
-component state.<o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:72.0pt;line-height:137%'><span
-class=SpellE><span lang=EN-GB style='mso-ansi-language:EN-GB'>OnIceGatheringDone</span></span><span
-lang=EN-GB style='mso-ansi-language:EN-GB'><o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:72.0pt;text-indent:36.0pt;line-height:137%'><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>Notify that all candidates have been
-gathered.<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class=SpellE><span
-class=GramE><b style='mso-bidi-font-weight:normal'>sessionId</b></span></span><b
-style='mso-bidi-font-weight:normal'> </b>(<i style='mso-bidi-font-style:normal'>required,
-string</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
-class=GramE>Session identifier.</span> <o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><o:p>&nbsp;</o:p></span></p>
-
-<h3 style='line-height:137%;mso-pagination:widow-orphan;page-break-after:auto'><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>Response<o:p></o:p></span></h3>
-
-<p class=Normal1><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><b style='mso-bidi-font-weight:normal'><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>Parameters</span></b><span
-lang=EN-GB style='mso-ansi-language:EN-GB'><o:p></o:p></span></p>
-
-<p class=Normal1><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span class=GramE><b
-style='mso-bidi-font-weight:normal'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>result</span></b></span><span lang=EN-GB style='mso-ansi-language:EN-GB'>
-(<i style='mso-bidi-font-style:normal'>required, object</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Result of the subscription
-invocation. This object contains the following members:<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class=GramE><b
-style='mso-bidi-font-weight:normal'>value</b></span> (<i style='mso-bidi-font-style:
-normal'>required, number</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
-class=GramE>Identifier of the media event.</span><o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class=SpellE><span
-class=GramE><b style='mso-bidi-font-weight:normal'>sessionId</b></span></span>
-(<i style='mso-bidi-font-style:normal'>required, string</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
-class=GramE>Session identifier.</span><o:p></o:p></span></p>
-
-<h2 style='line-height:137%;mso-pagination:widow-orphan;page-break-after:auto'><a
-name="_Unsubscribe"></a><span lang=EN-GB style='mso-ansi-language:EN-GB'>Unsubscribe<o:p></o:p></span></h2>
-
-<p class=Normal1><span lang=EN-US style='mso-ansi-language:EN-US'>Unsubscribe
-message requests the cancellation of a previous event subscription. The
-parameter subscription contains the subscription </span><span lang=EN-US
-style='font-family:"Courier New";mso-ansi-language:EN-US'>id</span><span
-lang=EN-US style='mso-ansi-language:EN-US'> received from the server when the
-subscription was created.<o:p></o:p></span></p>
-
-<p class=Normal1><span lang=EN-US style='mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></p>
-
-<h3 style='line-height:137%;mso-pagination:widow-orphan;page-break-after:auto'><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>Request<o:p></o:p></span></h3>
-
-<p class=Normal1><span lang=EN-US style='mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><b style='mso-bidi-font-weight:normal'><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>Parameters</span></b><span
-lang=EN-GB style='mso-ansi-language:EN-GB'><o:p></o:p></span></p>
-
-<p class=Normal1><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span class=GramE><b
-style='mso-bidi-font-weight:normal'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>method</span></b></span><span lang=EN-GB style='mso-ansi-language:EN-GB'>
-(<i style='mso-bidi-font-style:normal'>required, string</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Method is "unsubscribe".<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span class=SpellE><span class=GramE><b
-style='mso-bidi-font-weight:normal'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>params</span></b></span></span><span lang=EN-GB style='mso-ansi-language:
-EN-GB'> (<i style='mso-bidi-font-style:normal'>required, object</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class=GramE><b
-style='mso-bidi-font-weight:normal'>object</b></span> (<i style='mso-bidi-font-style:
-normal'>required, string</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
-class=GramE>Media element in which the subscription is placed.</span><o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class=GramE><b
-style='mso-bidi-font-weight:normal'>subscription</b></span><b style='mso-bidi-font-weight:
-normal'> </b>(<i style='mso-bidi-font-style:normal'>required, number</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:72.0pt;line-height:137%'><span class=GramE><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>Subscription identifier.</span></span><span
-lang=EN-GB style='mso-ansi-language:EN-GB'><o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class=SpellE><span
-class=GramE><b style='mso-bidi-font-weight:normal'>sessionId</b></span></span><b
-style='mso-bidi-font-weight:normal'> </b>(<i style='mso-bidi-font-style:normal'>required,
-string</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
-class=GramE>Session identifier.</span> <o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><o:p>&nbsp;</o:p></span></p>
-
-<h3 style='line-height:137%;mso-pagination:widow-orphan;page-break-after:auto'><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>Response<o:p></o:p></span></h3>
-
-<p class=Normal1><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><b style='mso-bidi-font-weight:normal'><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>Parameters</span></b><span
-lang=EN-GB style='mso-ansi-language:EN-GB'><o:p></o:p></span></p>
-
-<p class=Normal1><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span class=GramE><b
-style='mso-bidi-font-weight:normal'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>result</span></b></span><span lang=EN-GB style='mso-ansi-language:EN-GB'>
-(<i style='mso-bidi-font-style:normal'>required, object</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class=SpellE><span
-class=GramE><b style='mso-bidi-font-weight:normal'>sessionId</b></span></span>
-(<i style='mso-bidi-font-style:normal'>required, string</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
-class=GramE>Session identifier.</span><o:p></o:p></span></p>
-
-<h2 style='line-height:137%;mso-pagination:widow-orphan;page-break-after:auto'><a
-name="_OnEvent"></a><span class=SpellE><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>OnEvent</span></span><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p></o:p></span></h2>
-
-<p class=Normal1><span lang=EN-US style='mso-ansi-language:EN-US'>When a client
-is subscribed to a type of events in an object, the server sends an </span><span
-class=SpellE><span lang=EN-US style='font-family:"Courier New";mso-ansi-language:
-EN-US'>onEvent</span></span><span lang=EN-US style='mso-ansi-language:EN-US'>
-request each time an event of that type is fired in the object. This is
-possible because there is a full duplex channel between client and server.<o:p></o:p></span></p>
-
-<p class=Normal1><span lang=EN-US style='mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></p>
-
-<h3 style='line-height:137%;mso-pagination:widow-orphan;page-break-after:auto'><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>Request<o:p></o:p></span></h3>
-
-<p class=Normal1><span lang=EN-US style='mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><b style='mso-bidi-font-weight:normal'><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>Parameters</span></b><span
-lang=EN-GB style='mso-ansi-language:EN-GB'><o:p></o:p></span></p>
-
-<p class=Normal1><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span class=GramE><b
-style='mso-bidi-font-weight:normal'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>method</span></b></span><span lang=EN-GB style='mso-ansi-language:EN-GB'>
-(<i style='mso-bidi-font-style:normal'>required, string</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Method is "<span
-class=SpellE>onEvent</span>".<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span class=SpellE><span class=GramE><b
-style='mso-bidi-font-weight:normal'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>params</span></b></span></span><span lang=EN-GB style='mso-ansi-language:
-EN-GB'> (<i style='mso-bidi-font-style:normal'>required, object</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class=GramE><b
-style='mso-bidi-font-weight:normal'>value</b></span> (<i style='mso-bidi-font-style:
-normal'>required, object</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:36.0pt;line-height:137%'><span lang=EN-GB
-style='mso-ansi-language:EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
-class=GramE><b style='mso-bidi-font-weight:normal'>data</b></span> (<i
-style='mso-bidi-font-style:normal'>required, object</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:72.0pt;line-height:137%'><span lang=EN-GB
-style='mso-ansi-language:EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
-class=GramE><b style='mso-bidi-font-weight:normal'>object</b></span> (<i
-style='mso-bidi-font-style:normal'>optional, string</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:36.0pt;line-height:137%'><span lang=EN-GB
-style='mso-ansi-language:EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
-style='mso-tab-count:2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class=GramE>Media
-element target.</span><o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:72.0pt;line-height:137%'><span lang=EN-GB
-style='mso-ansi-language:EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
-class=GramE><b style='mso-bidi-font-weight:normal'>source</b></span> (<i
-style='mso-bidi-font-style:normal'>optional, string</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:36.0pt;line-height:137%'><span lang=EN-GB
-style='mso-ansi-language:EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
-style='mso-tab-count:2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class=GramE>Media
-element source.</span><o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:72.0pt;line-height:137%'><span lang=EN-GB
-style='mso-ansi-language:EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
-class=GramE><b style='mso-bidi-font-weight:normal'>tags</b></span> (<i
-style='mso-bidi-font-style:normal'>optional, string</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:36.0pt;line-height:137%'><span lang=EN-GB
-style='mso-ansi-language:EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
-style='mso-tab-count:2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class=GramE>Media
-element metadata.</span><o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:72.0pt;line-height:137%'><span lang=EN-GB
-style='mso-ansi-language:EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
-class=GramE><b style='mso-bidi-font-weight:normal'>timestamp</b></span> (<i
-style='mso-bidi-font-style:normal'>optional, number</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:36.0pt;line-height:137%'><span lang=EN-GB
-style='mso-ansi-language:EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
-style='mso-tab-count:2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class=GramE>Media
-server time and date.</span><o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class=GramE><b
-style='mso-bidi-font-weight:normal'>object</b></span><b style='mso-bidi-font-weight:
-normal'> </b>(<i style='mso-bidi-font-style:normal'>required, object</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:72.0pt;line-height:137%'><span class=GramE><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>Media element identifier.</span></span><span
-lang=EN-GB style='mso-ansi-language:EN-GB'><o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span class=GramE><b
-style='mso-bidi-font-weight:normal'>type</b></span><b style='mso-bidi-font-weight:
-normal'> </b>(<i style='mso-bidi-font-style:normal'>required, string</i>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='margin-left:72.0pt;line-height:137%'><span lang=EN-GB
-style='mso-ansi-language:EN-GB'>Same type identifier described on "subscribe"
-message (i.e.: <span class=SpellE>CodeFound</span>, <span class=SpellE>ConnectionStateChanged</span>,
-<span class=SpellE>ElementConnected</span>, <span class=SpellE>ElementDisconnected</span>,
-<span class=SpellE>EndOfStream</span>, Error, <span class=SpellE>MediaSessionStarted</span>,
-<span class=SpellE>MediaSessionTerminated</span>, <span class=SpellE>MediaStateChanged</span>,
-<span class=SpellE>ObjectCreated</span>, <span class=SpellE>ObjectDestroyed</span>,
-<span class=SpellE>OnIceCandidate</span>, <span class=SpellE>OnIceComponentStateChanged</span>,
-<span class=SpellE>OnIceGatheringDone</span>)<o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><o:p>&nbsp;</o:p></span></p>
-
-<h3 style='line-height:137%;mso-pagination:widow-orphan;page-break-after:auto'><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>Response<o:p></o:p></span></h3>
-
-<p class=Normal1><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>There is no response to the </span><span class=SpellE><span lang=EN-GB
-style='font-family:"Courier New";mso-ansi-language:EN-GB'>onEvent</span></span><span
-lang=EN-GB style='mso-ansi-language:EN-GB'> message.<o:p></o:p></span></p>
-
-<h1 style='line-height:137%;mso-pagination:widow-orphan;page-break-after:auto'><a
-name=h.1fh125kags72></a><b style='mso-bidi-font-weight:normal'><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>Acknowledgements</span></b><span
-lang=EN-GB style='mso-ansi-language:EN-GB'><o:p></o:p></span></h1>
-
-<p class=Normal1 style='line-height:137%'><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>This work has been supported by the European Commission under project FP7-2011-ICT-FI,
- GA-285248.</span></span><span lang=EN-GB style='mso-ansi-language:EN-GB'><o:p></o:p></span></p>
-
-<h1 style='line-height:137%;mso-pagination:widow-orphan;page-break-after:auto'><a
-name=h.o2o5ym1ljs7k></a><b style='mso-bidi-font-weight:normal'><span
-lang=EN-GB style='mso-ansi-language:EN-GB'>References</span></b><span
-lang=EN-GB style='mso-ansi-language:EN-GB'><o:p></o:p></span></h1>
-
-<p class=Normal1 style='line-height:137%'><a
-href="http://www.ietf.org/rfc/rfc2616.txt"><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>HTTP/1.1 (RFC2616)</span></a><span lang=EN-GB style='mso-ansi-language:
-EN-GB'><o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><a
-href="https://tools.ietf.org/html/rfc6455"><span class=SpellE><span lang=EN-GB
-style='mso-ansi-language:EN-GB'>WebSockets</span></span><span lang=EN-GB
-style='mso-ansi-language:EN-GB'> (RFC6455)</span></a><span lang=EN-GB
-style='mso-ansi-language:EN-GB'><o:p></o:p></span></p>
-
-<p class=Normal1 style='line-height:137%'><a
-href="http://www.ietf.org/rfc/rfc4627.txt"><span lang=EN-GB style='mso-ansi-language:
-EN-GB'>JSON</span></a><span lang=EN-GB style='mso-ansi-language:EN-GB'> data
-serialization format<o:p></o:p></span></p>
-
+        	                            
+                                    
+                                    
+                                    <div class="goExample">
+                                        <a href="#action_handshake_examples">Go to example</a>
+                                    </div>
+                                    
+                                        
+    <div class="goApiary">
+    
+        
+    
+        
+    
+    </div>
+
+                                    
+                                
+                            </div>
+                        </div>
+                    
+            </section>
+        
+    </section>
+
+        
+            <section id="resource_group_create" class="resourceGroup">
+            <h2 id="h-resource_group_create">Create</h2>
+        
+	<p>Create message requests the creation of an element of the toolbox. The parameter type specifies the type of the object to be created. The parameter <code>constructorParams</code> contains all the information needed to create the object. Each message needs different constructorParams to create the object.</p>
+<p>A <code>sessionId</code> parameter is included with the identifier of the current session. The value of this parameter is sent by Kurento Media Server to the client in each response. Only the first request from client to server is allowed to not include the <code>sessionId</code> (because at this point is unknown for the client).</p>
+<h3>Request</h3>
+<p>A <code>create</code> request contains the following parameters:</p>
+<ul>
+<li>
+<p><code>method</code> (required, string). Value: <code>create</code>.</p>
+</li>
+<li>
+<p><code>params</code> (required, object). Parameters for the invocation of the create message, containing these members:</p>
+<ul>
+<li>type (required, string). Media element to be created. Allowed Values:<ul>
+<li><code>WebRtcEndpoint</code>: This Endpoint offers media streaming using WebRTC.</li>
+<li><code>RtpEndpoint</code>: Endpoint that provides bidirectional content delivery capabilities with remote networked peers through RTP protocol. It contains paired sink and source MediaPad for audio and video.</li>
+<li><code>HttpPostEndpoint</code>: This type of Endpoint provide unidirectional communications. Its MediaSource are related to HTTP POST method. It contains sink MediaPad for audio and video, which provide access to an HTTP file upload function.</li>
+<li><code>PlayerEndpoint</code>: It provides function to retrieve contents from seekable sources in reliable mode (does not discard media information) and inject them into KMS. It contains one MediaSource for each media type detected.</li>
+<li><code>RecorderEndpoint</code>: Provides function to store contents in reliable mode (doesn't discard data). It contains MediaSink pads for audio and video.</li>
+<li><code>FaceOverlayFilter</code>: It detects faces in a video feed. The face is then overlaid with an image.</li>
+<li><code>ZBarFilter</code>: This Filter detects QR and bar codes in a video feed. When a code is found, the filter raises a CodeFound.</li>
+<li><code>GStreamerFilter</code>: This is a generic Filter interface, that creates GStreamer filters in the media server.</li>
+<li><code>Composite</code>: A Hub that mixes the audio stream of its connected sources and constructs a grid with the video streams of its connected sources into its sink.</li>
+<li><code>Dispatcher</code>: A Hub that allows routing between arbitrary port pairs.</li>
+<li><code>DispatcherOneToMany</code>: A Hub that sends a given source to all the connected sinks.</li>
+</ul>
+</li>
+<li><code>constructorParams</code> (required, object). Additional parameters. As minimum, the identifier of the media pipeline should be included here.</li>
+<li><code>sessionId</code> (required, string). Session identifier.</li>
+</ul>
+</li>
+</ul>
+<p>The following example shows a Request message requesting the creation of an object of the type <code>PlayerEndpoint</code> within the pipeline <code>6829986</code> and the parameter uri:<code>http://host/app/video.mp4</code> in the session <code>c93e5bf0-4fd0-4888-9411-765ff5d89b93</code>:</p>
+<ul>
+<li>Body (application/json)<pre><code>{
+  "jsonrpc": "2.0",
+  "id": 1,
+  "method": "create",
+  "params": {
+    "type": "PlayerEndPoint",
+    "constructorParams": {
+      "pipeline": "6829986",
+      "uri": "http://host/app/video.mp4"
+    },
+    "sessionId": "c93e5bf0-4fd0-4888-9411-765ff5d89b93"
+  }
+}
+</code></pre>
+</li>
+</ul>
+<h3>Response</h3>
+<p>The response message contains the id of the new object in the field value. This message <code>id</code> has to be used in other requests of the protocol (as we will describe later). As stated before, the <code>sessionId</code> is also returned in each response.</p>
+<p>A <code>create</code> response contains the following parameters:</p>
+<ul>
+<li><code>result</code> (required, object). Result of the create invocation:<ul>
+<li><code>value</code> (required, number). Identifier of the created media element.</li>
+<li><code>sessionId</code> (required, string). Session identifier.</li>
+</ul>
+</li>
+</ul>
+<p>The following example shows a typical response to a create message:</p>
+<ul>
+<li>Body (application/json)<pre><code>{
+  "jsonrpc": "2.0",
+  "id": 1,
+  "result": {
+    "value": "442352747",
+    "sessionId": "c93e5bf0-4fd0-4888-9411-765ff5d89b93"
+  }
+}
+</code></pre>
+</li>
+</ul>
+        
+    </section>
+
+        
+            <section id="resource_group_invoke" class="resourceGroup">
+            <h2 id="h-resource_group_invoke">Invoke</h2>
+        
+	<p>Invoke message requests the invocation of an operation in the specified object. The parameter object indicates the id of the object in which the operation will be invoked. The parameter operation carries the name of the operation to be executed. Finally, the parameter operationParams has the parameters needed to execute the operation. The object specified has to understand the</p>
+<h3>Request</h3>
+<p>An <code>invoke</code> request contains the following parameters:</p>
+<ul>
+<li>
+<p><code>method</code> (required, string). Value is <code>invoke</code>.</p>
+</li>
+<li>
+<p><code>params</code> (required, object)</p>
+<ul>
+<li><code>object</code> (required, number). Identifier of the source media element.<ul>
+<li><code>operation</code> (required, string). Operation invoked. Allowed Values:<ul>
+<li><code>connect</code>. Connect two media elements.</li>
+<li><code>play</code>. Start the play of a media (PlayerEndPoint).</li>
+<li><code>record</code>. Start the record of a media (RecorderEndPoint).</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>operationParams</code> (optional, object). <ul>
+<li><code>sink</code> (required, number). Identifier of the sink media element.</li>
+<li><code>sessionId</code> (required, string). Session identifier.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>The following example shows a Request message requesting the invocation of the operation connect on the object <code>442352747</code> with parameter sink <code>6829986</code>. The <code>sessionId</code> is also included as is mandatory for all requests in the session (except the first one):</p>
+<ul>
+<li>Body (application/json)<pre><code>{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "method": "invoke",
+  "params": {
+    "object": "442352747", "operation": "connect",
+    "operationParams": {
+      "sink": "6829986"
+    },
+    "sessionId": "c93e5bf0-4fd0-4888-9411-765ff5d89b93"
+  }
+}
+</code></pre>
+</li>
+</ul>
+<h3>Response</h3>
+<p>The response message contains the value returned while executing the operation invoked in the object or nothing if the operation doesn’t return any value.</p>
+<p>An <code>invoke</code> response contains the following parameters:</p>
+<ul>
+<li><code>result</code> (required, object)<ul>
+<li><code>sessionId</code> (required, string). Session identifier.</li>
+</ul>
+</li>
+</ul>
+<p>The following example shows a typical response while invoking the operation connect (that doesn’t return anything):</p>
+<ul>
+<li>Body (application/json)<pre><code>{
+  "jsonrpc": "2.0",
+  "result": {
+    "sessionId": "c93e5bf0-4fd0-4888-9411-765ff5d89b93"
+  },
+  "id": 2
+}
+</code></pre>
+</li>
+</ul>
+        
+    </section>
+
+        
+            <section id="resource_group_release" class="resourceGroup">
+            <h2 id="h-resource_group_release">Release</h2>
+        
+	<p>Release message requests the release of the specified object. The parameter <code>object</code> indicates the id of the object to be released:</p>
+<h3>Request</h3>
+<p>A <code>release</code> request contains the following parameters:</p>
+<ul>
+<li>
+<p><code>method</code> (required, string). Value is <code>release</code>.</p>
+</li>
+<li>
+<p><code>params</code> (required, object). </p>
+<ul>
+<li><code>object</code> (required, number). Identifier of the media element to be released.<ul>
+<li><code>sessionId</code> (required, string). Session identifier.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Body (application/json)</p>
+<pre><code>{
+  "jsonrpc": "2.0",
+  "id": 3,
+  "method": "release",
+  "params": {
+    "object": "442352747",
+    "sessionId": "c93e5bf0-4fd0-4888-9411-765ff5d89b93"
+  }
+}
+</code></pre>
+</li>
+</ul>
+<h3>Response</h3>
+<p>A <code>release</code> response contains the following parameters:</p>
+<ul>
+<li><code>result</code> (required, object)<ul>
+<li><code>sessionId</code> (required, string). Session identifier.</li>
+</ul>
+</li>
+</ul>
+<p>The response message only contains the <code>sessionID</code>. The following example shows the typical response of a release request:</p>
+<ul>
+<li>Body (application/json)<pre><code>{
+  "jsonrpc":"2.0",
+  "id":3,
+  "result": {
+    "sessionId":"c93e5bf0-4fd0-4888-9411-765ff5d89b93"
+  }
+}
+</code></pre>
+</li>
+</ul>
+        
+    </section>
+
+        
+            <section id="resource_group_subscribe" class="resourceGroup">
+            <h2 id="h-resource_group_subscribe">Subscribe</h2>
+        
+	<p>Subscribe message requests the subscription to a certain kind of events in the specified object. The parameter object indicates the id of the object to subscribe for events. The parameter type specifies the type of the events. If a client is subscribed for a certain type of events in an object, each time an event is fired in this object, a request with method onEvent is sent from Kurento Media Server to the client. This kind of request is described few sections later.</p>
+<h3>Request</h3>
+<p>A <code>subscribe</code> reqest contains the following parameters:</p>
+<ul>
+<li>
+<p><code>method</code> (required, string). Value is <code>subscribe</code>.</p>
+</li>
+<li>
+<p><code>params</code> (required, object). Parameters for the invocation of the create message, containing these members:</p>
+<ul>
+<li><code>constructorParams</code> (required, object). Additional parameters. As minimum, the identifier of the media pipeline should be included here.<ul>
+<li><code>type</code> (required, string). Media event to be subscribed. Allowed Values:<ul>
+<li><code>CodeFound Event</code>: raised by a ZBarFilter when a code is found in the data being streamed.</li>
+<li><code>ConnectionStateChanged</code>: Indicates that the state of the connection has changed.</li>
+<li><code>ElementConnected</code>: Indicates that an element has been connected to other.</li>
+<li><code>ElementDisconnected</code>: Indicates that an element has been disconnected.</li>
+<li><code>EndOfStream</code>: Event raised when the stream that the element sends out is finished.</li>
+<li><code>Error</code>: An error related to the MediaObject has occurred.</li>
+<li><code>MediaSessionStarted</code>: Event raised when a session starts. This event has no data.</li>
+<li><code>MediaSessionTerminated</code>: Event raised when a session is terminated. This event has no data.</li>
+<li><code>MediaStateChanged</code>: Indicates that the state of the media has changed.</li>
+<li><code>ObjectCreated</code>: Indicates that an object has been created on the mediaserver.</li>
+<li><code>ObjectDestroyed</code>: Indicates that an object has been destroyed on the mediaserver.</li>
+<li><code>OnIceCandidate</code>: Notify of a new gathered local candidate.</li>
+<li><code>OnIceComponentStateChanged</code>: Notify about the change of an ICE component state.</li>
+<li><code>OnIceGatheringDone</code>: Notify that all candidates have been gathered.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>sessionId</code> (required, string). Session identifier.</li>
+</ul>
+</li>
+</ul>
+<p>The following example shows a request message requesting the subscription of the event type <code>EndOfStream</code> on the object <code>311861480</code>. The <code>sessionId</code> is also included:</p>
+<ul>
+<li>Body (application/json)<pre><code>{
+  "jsonrpc":"2.0",
+  "id":4,
+  "method":"subscribe",
+  "params":{
+    "object":"311861480",
+    "type":"EndOfStream",
+    "sessionId":"c93e5bf0-4fd0-4888-9411-765ff5d89b93"
+  }
+}
+</code></pre>
+</li>
+</ul>
+<h3>Response</h3>
+<p>The response message contains the subscription identifier. This value can be used later to remove this <code>subscription</code>.</p>
+<p>A <code>subscribe</code> response contains the following parameters:</p>
+<ul>
+<li>
+<p><code>result</code> (required, object). Result of the subscription invocation. This object contains the following members:</p>
+</li>
+<li>
+<p><code>value</code> (required, number). Identifier of the media event.</p>
+</li>
+<li>
+<p><code>sessionId</code> (required, string). Session identifier.</p>
+</li>
+</ul>
+<p>The following example shows the response of subscription request. The <code>value</code> attribute contains the subscription id:</p>
+<ul>
+<li>Body (application/json)<pre><code>{
+  "jsonrpc":"2.0",
+  "id":4,
+  "result": {
+    "value":"353be312-b7f1-4768-9117-5c2f5a087429",
+    "sessionId":"c93e5bf0-4fd0-4888-9411-765ff5d89b93"
+  }
+}
+</code></pre>
+</li>
+</ul>
+        
+    </section>
+
+        
+            <section id="resource_group_unsubscribe" class="resourceGroup">
+            <h2 id="h-resource_group_unsubscribe">Unsubscribe</h2>
+        
+	<p>Unsubscribe message requests the cancellation of a previous event subscription. The parameter <code>subscription</code> contains the subscription id received from the server when the subscription was created.</p>
+<h3>Request</h3>
+<p>An <code>unsubscribe</code> request contains the following parameters:</p>
+<ul>
+<li>
+<p><code>method</code> (required, string). Value is <code>unsubscribe</code>.</p>
+</li>
+<li>
+<p><code>params</code> (required, object). </p>
+<ul>
+<li><code>object</code> (required, string). Media element in which the subscription is placed.<ul>
+<li><code>subscription</code> (required, number). Subscription identifier.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><code>sessionId</code> (required, string). Session identifier.</p>
+</li>
+</ul>
+<p>The following example shows a Request message requesting the cancellation of the <code>subscription</code> <code>353be312-b7f1-4768-9117-5c2f5a087429</code>:</p>
+<ul>
+<li>Body (application/json)<pre><code>{
+  "jsonrpc":"2.0",
+  "id":5,
+  "method":"unsubscribe",
+  "params": {
+    "subscription":"353be312-b7f1-4768-9117-5c2f5a087429",
+    "sessionId":"c93e5bf0-4fd0-4888-9411-765ff5d89b93"
+  }
+}
+</code></pre>
+</li>
+</ul>
+<h3>Response</h3>
+<p>The response message only contains the <code>sessionID</code>. The following example shows the typical response of an unsubscription request:</p>
+<p>An <code>unsubscribe</code> response contains the following parameters:</p>
+<ul>
+<li><code>result</code> (required, object)<ul>
+<li><code>sessionId</code> (required, string). Session identifier.</li>
+</ul>
+</li>
+</ul>
+<p>For example:</p>
+<ul>
+<li>Body (application/json)<pre><code>{
+  "jsonrpc":"2.0",
+  "id":5,
+  "result": {
+    "sessionId":"c93e5bf0-4fd0-4888-9411-765ff5d89b93"
+  }
+}
+</code></pre>
+</li>
+</ul>
+        
+    </section>
+
+        
+            <section id="resource_group_onevent" class="resourceGroup">
+            <h2 id="h-resource_group_onevent">OnEvent</h2>
+        
+	<p>When a client is <code>subscribed</code> to a type of events in an object, the server sends an onEvent request each time an event of that type is fired in the object. This is possible because the Stream Oriented open API is implemented with websockets and there is a full duplex channel between client and server. The request that server send to client has all the information about the event:</p>
+<ul>
+<li>
+<p><code>data</code>: Information about this specific of this type of event.</p>
+</li>
+<li>
+<p><code>source</code>: the object source of the event.</p>
+</li>
+<li>
+<p><code>type</code>: The type of the event.</p>
+</li>
+<li>
+<p><code>subscription</code>: subscription id for which the event is fired.</p>
+</li>
+</ul>
+<h3>Request</h3>
+<p>An <code>OnEvent</code> request contains the following parameters:</p>
+<ul>
+<li>
+<p><code>method</code> (required, string). Value is <code>onEvent</code>.</p>
+</li>
+<li>
+<p><code>params</code> (required, object). </p>
+<ul>
+<li><code>value</code> (required, object)<ul>
+<li><code>data</code> (required, object)<ul>
+<li><code>object</code> (optional, string). Media element target.</li>
+<li><code>source</code> (optional, string). Media element source.</li>
+<li><code>tags</code> (optional, string). Media element metadata.</li>
+<li><code>timestamp</code> (optional, number). Media server time and date.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>object</code> (required, object).Media element identifier.</li>
+<li><code>type</code> (required, string). Same type identifier described on <code>subscribe</code> message (i.e.: <code>CodeFound</code>, <code>ConnectionStateChanged</code>, <code>ElementConnected</code>, <code>ElementDisconnected</code>, <code>EndOfStream</code>, <code>Error</code>, <code>MediaSessionStarted</code>, <code>MediaSessionTerminated</code>, <code>MediaStateChanged</code>, <code>ObjectCreated</code>, <code>ObjectDestroyed</code>, <code>OnIceCandidate</code>, <code>OnIceComponentStateChanged</code>, <code>OnIceGatheringDone</code>)</li>
+</ul>
+</li>
+</ul>
+<p>The following example shows a notification sent for server to client to notify an event of type <code>EndOfStream</code> in the object <code>311861480</code> with <code>subscription</code> <code>353be312-b7f1-4768-9117-5c2f5a087429</code>:</p>
+<ul>
+<li>Body (application/json)<pre><code>{
+  "jsonrpc": "2.0",
+  "id": 6,
+  "method": "onEvent",
+  "params": {
+    "value": {
+       "data":{
+          "source":"311861480",
+          "type":"EndOfStream"
+      },
+      "object":"311861480",
+      "subscription":"353be312-b7f1-4768-9117-5c2f5a087429",
+      "type":"EndOfStream",
+    },
+    "sessionId":"4f5255d5-5695-4e1c-aa2b-722e82db5260"
+  }
+}
+</code></pre>
+</li>
+</ul>
+<h3>Response</h3>
+<p>There is no response to the <code>onEvent</code> message.</p>
+        
+    </section>
+
+<section id="examples">
+    <div class= "header" ><h2>Examples</h2> </div>
+    
+        
+            <section id="resource_group_websocket-connection_example" class="resourceGroupExample">
+                <div class= "header" ><h3 id="h-resource_group_websocket-connection_example">WebSocket Connection</h3> </div>
+        
+
+                
+                    <section id="resource_websocket-handshake_example" class="resourceExample">
+                         <div class= "header" ><h4 id="h-resource_websocket-handshake_example">WebSocket Handshake [/kurento]</h4></div>
+                            
+                            
+                            
+
+                            
+                            
+                            
+
+                            
+
+
+                            
+                                <div id="action_handshake_examples" class="actionExample GET">
+
+                                    
+    <h4 id="h-action_handshake_examples">
+        Handshake -
+        GET
+        
+            /kurento
+        
+    </h4>
+
+                
+                                    <div id="action_handshake_body" class=""> 
+                                        
+                                        
+                                        
+                                        
+         
+                                        
+                                            
+                                            
+                                                
+                                                    
+                                                    
+                                                    
+                                                    
+
+<div class="rest-packet-div">
+
+            <span class="packetType">Request </span> 
+        
+    
+        
+    
+        
+    
+        
+    
+            
+            
+            
+            
+
+
+
+ 
+            <div id="action_handshake_Request_1_body" class=" action-div-body">
+                <p></p>
+
+                
+        	         <div class= "header"><p>Headers</p></div>
+                    
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+
+        	        <pre><code>Upgrade: websocket
+Connection: Upgrade
+Sec-WebSocket-Key: daecIhfhHeDfYP4rJivWjQ==
+Sec-WebSocket-Version: 13</code></pre>
+                
+
+                
+
+                
+            </div>
+            
+            
+     
 </div>
+                                                
+            
+                                                
+                                                    
+                                                
+                                                
+                                                
 
+<div class="rest-packet-div">
+
+            <span class="packetType">Response 101</span> 
+            
+            
+            
+            
+
+
+
+ 
+            <div id="action_handshake_Response_1_body" class=" action-div-body">
+                <p></p>
+
+                
+
+                
+
+                
+            </div>
+            
+            
+     
+</div>
+                                                
+                                            
+                                            <div class="goActions">
+                                                <a href="#action_handshake">Go to specification</a>
+                                            </div>
+                                    </div>
+                                </div>
+                            
+                    </section>
+            
+        </section>
+    
+        
+            <section id="resource_group_create_example" class="resourceGroupExample">
+                <div class= "header" ><h3 id="h-resource_group_create_example">Create</h3> </div>
+        
+
+                
+        </section>
+    
+        
+            <section id="resource_group_invoke_example" class="resourceGroupExample">
+                <div class= "header" ><h3 id="h-resource_group_invoke_example">Invoke</h3> </div>
+        
+
+                
+        </section>
+    
+        
+            <section id="resource_group_release_example" class="resourceGroupExample">
+                <div class= "header" ><h3 id="h-resource_group_release_example">Release</h3> </div>
+        
+
+                
+        </section>
+    
+        
+            <section id="resource_group_subscribe_example" class="resourceGroupExample">
+                <div class= "header" ><h3 id="h-resource_group_subscribe_example">Subscribe</h3> </div>
+        
+
+                
+        </section>
+    
+        
+            <section id="resource_group_unsubscribe_example" class="resourceGroupExample">
+                <div class= "header" ><h3 id="h-resource_group_unsubscribe_example">Unsubscribe</h3> </div>
+        
+
+                
+        </section>
+    
+        
+            <section id="resource_group_onevent_example" class="resourceGroupExample">
+                <div class= "header" ><h3 id="h-resource_group_onevent_example">OnEvent</h3> </div>
+        
+
+                
+        </section>
+    
+
+
+
+</section>
+  </section>
+  
+   
+
+
+
+    
+    
+    
+  </div>
+</div>
 </body>
-
 </html>
