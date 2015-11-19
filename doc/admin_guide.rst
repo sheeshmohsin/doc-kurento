@@ -264,7 +264,7 @@ The output should include the kurento-media-server process:
 Network interfaces Up & Open
 ----------------------------
 
-Unless configured otherwise, Kureno Media Server will open the port TCP 8888 to
+Unless configured otherwise, Kurento Media Server will open the port TCP 8888 to
 receive requests and send responses to/from by means of the Kurento clients (by
 means of the Kurento Protocol Open API). To verify if this port is listening,
 execute the following command:
